@@ -1,0 +1,11 @@
+libdir=/homea/ias-5/wenping/gmx512_EMG_JURECA_F/lib64
+
+Name: libgromacs
+Description: Gromacs library
+URL: http://www.gromacs.org
+Version: 5.1.2
+Requires:  
+Libs.private: -lpthread -ldl -fopenmp
+Libs: -L${libdir} -lgromacs  -lm
+Cflags:  -I/homea/ias-5/wenping/gmx512_EMG_JURECA_F/include -I/homea/ias-5/wenping/gmx512_EMG_JURECA_F/include/gromacs/external/boost -DGMX_SOFTWARE_INVSQRT -fopenmp
+

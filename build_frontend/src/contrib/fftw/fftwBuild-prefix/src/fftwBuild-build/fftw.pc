@@ -1,0 +1,11 @@
+prefix=/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/src/contrib/fftw/fftwBuild-prefix
+exec_prefix=${prefix}
+libdir=/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/src/contrib/fftw/fftwBuild-prefix/lib
+includedir=${prefix}/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.4
+Libs: -L${libdir} -lfftw3f 
+Libs.private: -lm
+Cflags: -I${includedir}

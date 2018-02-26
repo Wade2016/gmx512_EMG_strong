@@ -1,0 +1,14 @@
+# Target labels
+ fftwBuild
+# Source files and their labels
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/CMakeFiles/fftwBuild
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/CMakeFiles/fftwBuild.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/CMakeFiles/fftwBuild-complete.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-install.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-mkdir.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-download.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-update.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-patch.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-configure.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-build.rule
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-pre-download.rule

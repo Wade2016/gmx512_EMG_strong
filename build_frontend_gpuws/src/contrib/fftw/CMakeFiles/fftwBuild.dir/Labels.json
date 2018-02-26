@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/CMakeFiles/fftwBuild"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/CMakeFiles/fftwBuild.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/CMakeFiles/fftwBuild-complete.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-install.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-mkdir.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-download.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-update.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-patch.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-configure.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-build.rule"
+		},
+		{
+			"file" : "/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-pre-download.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fftwBuild"
+		],
+		"name" : "fftwBuild"
+	}
+}

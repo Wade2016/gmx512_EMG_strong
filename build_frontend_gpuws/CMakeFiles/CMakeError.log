@@ -1,0 +1,480 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ed29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ed29.dir/build.make CMakeFiles/cmTC_6ed29.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ed29.dir/CheckSymbolExists.c.o
+/usr/bin/gcc    -fPIC    -o CMakeFiles/cmTC_6ed29.dir/CheckSymbolExists.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6ed29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ed29.dir/link.txt --verbose=1
+/usr/bin/gcc  -fPIC     CMakeFiles/cmTC_6ed29.dir/CheckSymbolExists.c.o  -o cmTC_6ed29 -rdynamic 
+CMakeFiles/cmTC_6ed29.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6ed29.dir/build.make:97: recipe for target 'cmTC_6ed29' failed
+make[1]: *** [cmTC_6ed29] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6ed29/fast' failed
+make: *** [cmTC_6ed29/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c241/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c241.dir/build.make CMakeFiles/cmTC_1c241.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c241.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1c241.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1c241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c241.dir/link.txt --verbose=1
+/usr/bin/gcc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1c241.dir/CheckFunctionExists.c.o  -o cmTC_1c241 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1c241.dir/build.make:97: recipe for target 'cmTC_1c241' failed
+make[1]: *** [cmTC_1c241] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1c241/fast' failed
+make: *** [cmTC_1c241/fast] Error 2
+
+
+Determining if files io.h exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8bd3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8bd3.dir/build.make CMakeFiles/cmTC_a8bd3.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8bd3.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc    -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_a8bd3.dir/CheckIncludeFiles.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:16: fatal error: io.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a8bd3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a8bd3.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a8bd3.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8bd3/fast' failed
+make: *** [cmTC_a8bd3/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if the memalign exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c616/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c616.dir/build.make CMakeFiles/cmTC_3c616.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c616.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_3c616.dir/CheckSymbolExists.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘memalign’ was not declared in this scope
+   return ((int*)(&memalign))[argc];
+                   ^
+CMakeFiles/cmTC_3c616.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3c616.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3c616.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3c616/fast' failed
+make: *** [cmTC_3c616/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43159/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43159.dir/build.make CMakeFiles/cmTC_43159.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43159.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_43159.dir/CheckSymbolExists.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_aligned_malloc’ was not declared in this scope
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^
+CMakeFiles/cmTC_43159.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_43159.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_43159.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_43159/fast' failed
+make: *** [cmTC_43159/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _fileno exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72afe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72afe.dir/build.make CMakeFiles/cmTC_72afe.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72afe.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_72afe.dir/CheckSymbolExists.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘_fileno’ was not declared in this scope
+   return ((int*)(&_fileno))[argc];
+                   ^
+CMakeFiles/cmTC_72afe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_72afe.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_72afe.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_72afe/fast' failed
+make: *** [cmTC_72afe/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fileno
+  return ((int*)(&_fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _commit exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6c74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6c74.dir/build.make CMakeFiles/cmTC_b6c74.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6c74.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_b6c74.dir/CheckSymbolExists.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:16: fatal error: io.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_b6c74.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b6c74.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b6c74.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b6c74/fast' failed
+make: *** [cmTC_b6c74/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _commit
+  return ((int*)(&_commit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rsqrt exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b57b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b57b0.dir/build.make CMakeFiles/cmTC_b57b0.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b57b0.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_b57b0.dir/CheckSymbolExists.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘rsqrt’ was not declared in this scope
+   return ((int*)(&rsqrt))[argc];
+                   ^
+CMakeFiles/cmTC_b57b0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b57b0.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b57b0.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b57b0/fast' failed
+make: *** [cmTC_b57b0/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrt
+  return ((int*)(&rsqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rsqrtf exist failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc816/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc816.dir/build.make CMakeFiles/cmTC_cc816.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc816.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_cc816.dir/CheckSymbolExists.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘rsqrtf’ was not declared in this scope
+   return ((int*)(&rsqrtf))[argc];
+                   ^
+CMakeFiles/cmTC_cc816.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cc816.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cc816.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc816/fast' failed
+make: *** [cmTC_cc816/fast] Error 2
+
+File /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrtf
+  return ((int*)(&rsqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc314/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bc314.dir/build.make CMakeFiles/cmTC_bc314.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc314.dir/TestEndianess.c.o
+/usr/bin/gcc    -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_bc314.dir/TestEndianess.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_bc314
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc314.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_bc314.dir/TestEndianess.c.o  -o cmTC_bc314 -rdynamic 
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test _isfinite_compile_ok failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61702/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61702.dir/build.make CMakeFiles/cmTC_61702.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61702.dir/src.c.o
+/usr/bin/gcc   -I/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/math.h  -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok   -o CMakeFiles/cmTC_61702.dir/src.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function ‘_isfinite’ [-Wimplicit-function-declaration]
+   _isfinite(f);
+   ^
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:4:3: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
+Linking C executable cmTC_61702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61702.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok    CMakeFiles/cmTC_61702.dir/src.c.o  -o cmTC_61702 -rdynamic -lm 
+CMakeFiles/cmTC_61702.dir/src.c.o: In function `main':
+src.c:(.text+0x13): undefined reference to `_isfinite'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_61702.dir/build.make:97: recipe for target 'cmTC_61702' failed
+make[1]: *** [cmTC_61702] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61702/fast' failed
+make: *** [cmTC_61702/fast] Error 2
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  _isfinite(f);
+}
+Performing C SOURCE FILE Test _finite_compile_ok failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10c98/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10c98.dir/build.make CMakeFiles/cmTC_10c98.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10c98.dir/src.c.o
+/usr/bin/gcc   -I/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/float.h  -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok   -o CMakeFiles/cmTC_10c98.dir/src.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:4:3: warning: implicit declaration of function ‘_finite’ [-Wimplicit-function-declaration]
+   _finite(f);
+   ^
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:4:3: warning: ‘f’ is used uninitialized in this function [-Wuninitialized]
+Linking C executable cmTC_10c98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10c98.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok    CMakeFiles/cmTC_10c98.dir/src.c.o  -o cmTC_10c98 -rdynamic 
+CMakeFiles/cmTC_10c98.dir/src.c.o: In function `main':
+src.c:(.text+0x13): undefined reference to `_finite'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_10c98.dir/build.make:97: recipe for target 'cmTC_10c98' failed
+make[1]: *** [cmTC_10c98] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_10c98/fast' failed
+make: *** [cmTC_10c98/fast] Error 2
+
+Source file was:
+#include <float.h>
+int main(void) {
+  float f;
+  _finite(f);
+}
+Determining if the include file regex exists failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49d65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49d65.dir/build.make CMakeFiles/cmTC_49d65.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49d65.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++     -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_49d65.dir/CheckIncludeFile.cxx.o -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/5/regex:35:0,
+                 from /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+CMakeFiles/cmTC_49d65.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_49d65.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_49d65.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49d65/fast' failed
+make: *** [cmTC_49d65/fast] Error 2
+
+
+Performing C SOURCE FILE Test _callconv___vectorcall failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2063c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2063c.dir/build.make CMakeFiles/cmTC_2063c.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2063c.dir/src.c.o
+/usr/bin/gcc    -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___vectorcall   -o CMakeFiles/cmTC_2063c.dir/src.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:1:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘f’
+ int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+                  ^
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:1:62: warning: implicit declaration of function ‘f’ [-Wimplicit-function-declaration]
+ int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+                                                              ^
+CMakeFiles/cmTC_2063c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2063c.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2063c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2063c/fast' failed
+make: *** [cmTC_2063c/fast] Error 2
+
+Source file was:
+int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+Performing C SOURCE FILE Test _callconv___regcall failed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0bb95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0bb95.dir/build.make CMakeFiles/cmTC_0bb95.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bb95.dir/src.c.o
+/usr/bin/gcc    -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___regcall   -o CMakeFiles/cmTC_0bb95.dir/src.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:1:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘f’
+ int __regcall f(int i) {return i;} int main(void) {return f(0);}
+               ^
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/src.c:1:59: warning: implicit declaration of function ‘f’ [-Wimplicit-function-declaration]
+ int __regcall f(int i) {return i;} int main(void) {return f(0);}
+                                                           ^
+CMakeFiles/cmTC_0bb95.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0bb95.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0bb95.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0bb95/fast' failed
+make: *** [cmTC_0bb95/fast] Error 2
+
+Source file was:
+int __regcall f(int i) {return i;} int main(void) {return f(0);}
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0f2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0f2f.dir/build.make CMakeFiles/cmTC_e0f2f.dir/build
+make[1]: Entering directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0f2f.dir/TestEndianess.c.o
+/usr/bin/gcc    -march=core-avx2    -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_e0f2f.dir/TestEndianess.c.o   -c /home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_e0f2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f2f.dir/link.txt --verbose=1
+/usr/bin/gcc   -march=core-avx2    -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_e0f2f.dir/TestEndianess.c.o  -o cmTC_e0f2f -rdynamic 
+make[1]: Leaving directory '/home/wenping/software/gromacs-5.1.2_EtMg/build_frontend_gpuws/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

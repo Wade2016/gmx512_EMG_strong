@@ -1,0 +1,22 @@
+WARNING 1 [file grompp.mdp]:
+  rlistlong was not set, setting it to 0.9 (no buffer)
+
+WARNING 2 [file grompp.mdp]:
+  The switching range should be 5% or less (currently 22.22% using a
+  switching range of 0.700000-0.900000) for accurate electrostatic
+  energies, energy conservation will be good regardless, since ewald_rtol =
+  1e-05.
+
+WARNING 3 [file topol.top, line 103]:
+  The bond in molecule-type SOL between atoms 1 OW and 2 HW1 has an
+  estimated oscillational period of 8.6e-03 ps, which is less than 5 times
+  the time step of 2.0e-03 ps.
+  Maybe you asked for fexible water.
+
+WARNING 4 [file grompp.mdp]:
+  Can not exclude the lattice Coulomb energy between energy groups
+
+WARNING 5 [file grompp.mdp]:
+  The sum of the two largest charge group radii (0.160742) is larger than
+  rlist (0.010000)
+

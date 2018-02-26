@@ -1,0 +1,686 @@
+Determining if files io.h exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1399519815/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1399519815.dir/build.make CMakeFiles/cmTryCompileExec1399519815.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1399519815.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec1399519815.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c", line 2.10: 1506-296 (S) #include file <io.h> not found.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1399519815.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1399519815/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(){return 0;}
+
+Determining if the memalign exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec157701828/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec157701828.dir/build.make CMakeFiles/cmTryCompileExec157701828.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec157701828.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec157701828.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.19: 1540-0274 (S) The name lookup for "memalign" did not find a declaration.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec157701828.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec157701828/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1438678151/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1438678151.dir/build.make CMakeFiles/cmTryCompileExec1438678151.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1438678151.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec1438678151.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.19: 1540-0274 (S) The name lookup for "_aligned_malloc" did not find a declaration.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1438678151.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1438678151/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _fileno exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec890475376/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec890475376.dir/build.make CMakeFiles/cmTryCompileExec890475376.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec890475376.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec890475376.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.19: 1540-0274 (S) The name lookup for "_fileno" did not find a declaration.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec890475376.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec890475376/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fileno
+  return ((int*)(&_fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _commit exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3147483744/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3147483744.dir/build.make CMakeFiles/cmTryCompileExec3147483744.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3147483744.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3147483744.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 2.10: 1540-0836 (S) The #include file <io.h> is not found.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3147483744.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3147483744/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _commit
+  return ((int*)(&_commit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rsqrt exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec946529892/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec946529892.dir/build.make CMakeFiles/cmTryCompileExec946529892.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec946529892.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec946529892.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.19: 1540-0274 (S) The name lookup for "rsqrt" did not find a declaration.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec946529892.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec946529892/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrt
+  return ((int*)(&rsqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rsqrtf exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2128464948/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2128464948.dir/build.make CMakeFiles/cmTryCompileExec2128464948.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2128464948.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec2128464948.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.19: 1540-0274 (S) The name lookup for "rsqrtf" did not find a declaration.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2128464948.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2128464948/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrtf
+  return ((int*)(&rsqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec362919528/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec362919528.dir/build.make CMakeFiles/cmTryCompileExec362919528.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec362919528.dir/TestEndianess.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec362919528.dir/TestEndianess.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec362919528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec362919528.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec362919528.dir/TestEndianess.c.o  -o cmTryCompileExec362919528  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test _isfinite_compile_ok failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3130595494/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3130595494.dir/build.make CMakeFiles/cmTryCompileExec3130595494.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3130595494.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_isfinite_compile_ok -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec3130595494.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3130595494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3130595494.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_isfinite_compile_ok    CMakeFiles/cmTryCompileExec3130595494.dir/src.c.o  -o cmTryCompileExec3130595494  -lm 
+CMakeFiles/cmTryCompileExec3130595494.dir/src.c.o:(.text+0x18): undefined reference to `_isfinite'
+gmake[1]: *** [cmTryCompileExec3130595494] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3130595494/fast] Error 2
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  _isfinite(f);
+}
+Performing C SOURCE FILE Test _finite_compile_ok failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec846337009/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec846337009.dir/build.make CMakeFiles/cmTryCompileExec846337009.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec846337009.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_finite_compile_ok -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/float.h    -o CMakeFiles/cmTryCompileExec846337009.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec846337009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec846337009.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_finite_compile_ok    CMakeFiles/cmTryCompileExec846337009.dir/src.c.o  -o cmTryCompileExec846337009  
+CMakeFiles/cmTryCompileExec846337009.dir/src.c.o:(.text+0x18): undefined reference to `_finite'
+gmake[1]: *** [cmTryCompileExec846337009] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec846337009/fast] Error 2
+
+Source file was:
+#include <float.h>
+int main(void) {
+  float f;
+  _finite(f);
+}
+Performing C++ SOURCE FILE Test CXXFLAG_STD_CXX0X failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3466640908/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3466640908.dir/build.make CMakeFiles/cmTryCompileExec3466640908.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3466640908.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DCXXFLAG_STD_CXX0X -std=c++0x   -o CMakeFiles/cmTryCompileExec3466640908.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+/opt/ibmcmp/vacpp/bg/12.1/bin/.orig/bgxlC_r: 1501-210 (W) command option t contains an incorrect subargument
+Linking CXX executable cmTryCompileExec3466640908
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3466640908.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DCXXFLAG_STD_CXX0X -std=c++0x    CMakeFiles/cmTryCompileExec3466640908.dir/src.cxx.o  -o cmTryCompileExec3466640908  
+/opt/ibmcmp/vacpp/bg/12.1/bin/.orig/bgxlC_r: 1501-210 (W) command option t contains an incorrect subargument
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test GMX_CXX11_SUPPORTED failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec573900556/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec573900556.dir/build.make CMakeFiles/cmTryCompileExec573900556.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec573900556.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DGMX_CXX11_SUPPORTED   -o CMakeFiles/cmTryCompileExec573900556.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx", line 6.18: 1540-0063 (S) The text "<" is unexpected.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx", line 8.34: 1540-2935 (S) The current option settings have not enabled C++0x feature "variadic templates".  Use the C++0x langlvl, or langlvl "VariadicTemplates" to enable this feature.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx", line 8.34: 1540-2955 (I) SUGGESTION: Try using "-qlanglvl=variadictemplates". It looks like you are trying to use the associated C++0x feature.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx", line 13.11: 1540-0111 (S) The "explicit" specifier must be applied only to declarations of constructors within a class declaration.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx", line 13.11: 1540-2955 (I) SUGGESTION: Try using "-qlanglvl=explicitconversionoperators". It looks like you are trying to use the associated C++0x feature.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx", line 15.26: 1540-0040 (S) The text "<" is unexpected.  "std::unique_ptr" may be undeclared or ambiguous.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec573900556.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec573900556/fast] Error 2
+
+Source file was:
+#include <vector>
+#include <memory>
+#include <utility>
+struct A {
+  A(int *i=NULL) : p(i) {} ;
+  std::unique_ptr<int> p;
+};
+template <typename Head, typename... Tail>
+struct VarList {
+  typedef VarList<Tail...> VarListTail;
+  typedef std::pair<Head, typename VarListTail::ListType> ListType;
+};
+class a { explicit operator bool() {return true;} };
+int main() {
+  typedef std::unique_ptr<int> intPointer;
+  intPointer p(new int(10));
+  std::vector<intPointer> v;
+  v.push_back(std::move(p));
+  std::vector<A> v2;
+  v2.push_back(A());  //requires default move constructor
+  v2.push_back(A(new int(5))); //detects bug in ICC
+}
+Determining if the include file regex exists failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec462065357/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec462065357.dir/build.make CMakeFiles/cmTryCompileExec462065357.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec462065357.dir/CheckIncludeFile.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec462065357.dir/CheckIncludeFile.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+"/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/include/c++/4.4.7/c++0x_warning.h", line 31.2: 1540-0859 (S) #error directive: This file requires compiler and library support for the upcoming
+ISO C++ standard, C++0x. This support is currently experimental, and must be
+enabled with the -std=c++0x or -std=gnu++0x compiler options..
+gmake[1]: *** [CMakeFiles/cmTryCompileExec462065357.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec462065357/fast] Error 2
+
+
+Performing C SOURCE FILE Test _callconv___vectorcall failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec31275977/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec31275977.dir/build.make CMakeFiles/cmTryCompileExec31275977.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec31275977.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_callconv___vectorcall   -o CMakeFiles/cmTryCompileExec31275977.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c", line 1.5: 1506-166 (S) Definition of function __vectorcall requires parentheses.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c", line 1.18: 1506-276 (S) Syntax error: possible missing '{'?
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c", line 1.35: 1506-045 (S) Undeclared identifier i.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec31275977.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec31275977/fast] Error 2
+
+Source file was:
+int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+Performing C SOURCE FILE Test _callconv___regcall failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2198934255/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2198934255.dir/build.make CMakeFiles/cmTryCompileExec2198934255.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2198934255.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_callconv___regcall   -o CMakeFiles/cmTryCompileExec2198934255.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c", line 1.5: 1506-166 (S) Definition of function __regcall requires parentheses.
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c", line 1.15: 1506-276 (S) Syntax error: possible missing '{'?
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c", line 1.32: 1506-045 (S) Undeclared identifier i.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2198934255.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2198934255/fast] Error 2
+
+Source file was:
+int __regcall f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function fftwf_have_simd_sse exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4269284135/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4269284135.dir/build.make CMakeFiles/cmTryCompileExec4269284135.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4269284135.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse   -o CMakeFiles/cmTryCompileExec4269284135.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4269284135
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4269284135.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse    CMakeFiles/cmTryCompileExec4269284135.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4269284135  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec4269284135.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_sse'
+gmake[1]: *** [cmTryCompileExec4269284135] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4269284135/fast] Error 2
+
+
+Determining if the function fftwf_have_sse exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3234526939/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3234526939.dir/build.make CMakeFiles/cmTryCompileExec3234526939.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3234526939.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse   -o CMakeFiles/cmTryCompileExec3234526939.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3234526939
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3234526939.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse    CMakeFiles/cmTryCompileExec3234526939.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3234526939  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec3234526939.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_sse'
+gmake[1]: *** [cmTryCompileExec3234526939] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3234526939/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_sse2 exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec317248372/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec317248372.dir/build.make CMakeFiles/cmTryCompileExec317248372.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec317248372.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse2   -o CMakeFiles/cmTryCompileExec317248372.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec317248372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec317248372.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_sse2    CMakeFiles/cmTryCompileExec317248372.dir/CheckFunctionExists.c.o  -o cmTryCompileExec317248372  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec317248372.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_sse2'
+gmake[1]: *** [cmTryCompileExec317248372] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec317248372/fast] Error 2
+
+
+Determining if the function fftwf_have_sse2 exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec537174123/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec537174123.dir/build.make CMakeFiles/cmTryCompileExec537174123.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec537174123.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse2   -o CMakeFiles/cmTryCompileExec537174123.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec537174123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec537174123.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_sse2    CMakeFiles/cmTryCompileExec537174123.dir/CheckFunctionExists.c.o  -o cmTryCompileExec537174123  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec537174123.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_sse2'
+gmake[1]: *** [cmTryCompileExec537174123] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec537174123/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_avx exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec396436685/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec396436685.dir/build.make CMakeFiles/cmTryCompileExec396436685.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec396436685.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx   -o CMakeFiles/cmTryCompileExec396436685.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec396436685
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec396436685.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx    CMakeFiles/cmTryCompileExec396436685.dir/CheckFunctionExists.c.o  -o cmTryCompileExec396436685  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec396436685.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_avx'
+gmake[1]: *** [cmTryCompileExec396436685] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec396436685/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_avx2 exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1990777561/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1990777561.dir/build.make CMakeFiles/cmTryCompileExec1990777561.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1990777561.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2   -o CMakeFiles/cmTryCompileExec1990777561.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1990777561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1990777561.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2    CMakeFiles/cmTryCompileExec1990777561.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1990777561  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec1990777561.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_avx2'
+gmake[1]: *** [cmTryCompileExec1990777561] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1990777561/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_avx2_128 exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3902023190/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3902023190.dir/build.make CMakeFiles/cmTryCompileExec3902023190.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3902023190.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2_128   -o CMakeFiles/cmTryCompileExec3902023190.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3902023190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3902023190.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx2_128    CMakeFiles/cmTryCompileExec3902023190.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3902023190  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec3902023190.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_avx2_128'
+gmake[1]: *** [cmTryCompileExec3902023190] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3902023190/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_avx512 exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2582941168/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2582941168.dir/build.make CMakeFiles/cmTryCompileExec2582941168.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2582941168.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx512   -o CMakeFiles/cmTryCompileExec2582941168.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2582941168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2582941168.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx512    CMakeFiles/cmTryCompileExec2582941168.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2582941168  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec2582941168.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_avx512'
+gmake[1]: *** [cmTryCompileExec2582941168] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2582941168/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_avx_128_fma exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1653045390/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1653045390.dir/build.make CMakeFiles/cmTryCompileExec1653045390.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1653045390.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx_128_fma   -o CMakeFiles/cmTryCompileExec1653045390.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1653045390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1653045390.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_avx_128_fma    CMakeFiles/cmTryCompileExec1653045390.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1653045390  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec1653045390.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_avx_128_fma'
+gmake[1]: *** [cmTryCompileExec1653045390] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1653045390/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_altivec exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec176222467/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec176222467.dir/build.make CMakeFiles/cmTryCompileExec176222467.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec176222467.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec   -o CMakeFiles/cmTryCompileExec176222467.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec176222467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec176222467.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec    CMakeFiles/cmTryCompileExec176222467.dir/CheckFunctionExists.c.o  -o cmTryCompileExec176222467  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec176222467.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_altivec'
+gmake[1]: *** [cmTryCompileExec176222467] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec176222467/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_neon exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3721309224/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3721309224.dir/build.make CMakeFiles/cmTryCompileExec3721309224.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3721309224.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_neon   -o CMakeFiles/cmTryCompileExec3721309224.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3721309224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3721309224.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_neon    CMakeFiles/cmTryCompileExec3721309224.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3721309224  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec3721309224.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_neon'
+gmake[1]: *** [cmTryCompileExec3721309224] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3721309224/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_vsx exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2234580514/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2234580514.dir/build.make CMakeFiles/cmTryCompileExec2234580514.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2234580514.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_vsx   -o CMakeFiles/cmTryCompileExec2234580514.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2234580514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2234580514.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_vsx    CMakeFiles/cmTryCompileExec2234580514.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2234580514  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec2234580514.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_vsx'
+gmake[1]: *** [cmTryCompileExec2234580514] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2234580514/fast] Error 2
+
+
+Determining if the function fftwf_have_simd_altivec exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec655581130/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec655581130.dir/build.make CMakeFiles/cmTryCompileExec655581130.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec655581130.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec   -o CMakeFiles/cmTryCompileExec655581130.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec655581130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec655581130.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_simd_altivec    CMakeFiles/cmTryCompileExec655581130.dir/CheckFunctionExists.c.o  -o cmTryCompileExec655581130  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec655581130.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_simd_altivec'
+gmake[1]: *** [cmTryCompileExec655581130] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec655581130/fast] Error 2
+
+
+Determining if the function fftwf_have_altivec exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2018774208/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2018774208.dir/build.make CMakeFiles/cmTryCompileExec2018774208.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2018774208.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_altivec   -o CMakeFiles/cmTryCompileExec2018774208.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2018774208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2018774208.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_have_altivec    CMakeFiles/cmTryCompileExec2018774208.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2018774208  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+CMakeFiles/cmTryCompileExec2018774208.dir/CheckFunctionExists.c.o:(.text+0x1c): undefined reference to `fftwf_have_altivec'
+gmake[1]: *** [cmTryCompileExec2018774208] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2018774208/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec176998101/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec176998101.dir/build.make CMakeFiles/cmTryCompileExec176998101.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec176998101.dir/TestEndianess.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec176998101.dir/TestEndianess.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec176998101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec176998101.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc      -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec176998101.dir/TestEndianess.c.o  -o cmTryCompileExec176998101  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,590 @@
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3378736013/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3378736013.dir/build.make CMakeFiles/cmTryCompileExec3378736013.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3378736013.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_EXCESS_PREC -fexcess-precision=fast   -o CMakeFiles/cmTryCompileExec3378736013.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+cc1: error: unrecognized command line option "-fexcess-precision=fast"
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3378736013.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3378736013/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec736700203/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec736700203.dir/build.make CMakeFiles/cmTryCompileExec736700203.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec736700203.dir/src.cxx.o
+/usr/bin/g++    -DCXXFLAGS_EXCESS_PREC -fexcess-precision=fast   -o CMakeFiles/cmTryCompileExec736700203.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: unrecognized command line option "-fexcess-precision=fast"
+gmake[1]: *** [CMakeFiles/cmTryCompileExec736700203.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec736700203/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Determining if files io.h exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3325251916/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3325251916.dir/build.make CMakeFiles/cmTryCompileExec3325251916.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3325251916.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3325251916.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:16: error: io.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3325251916.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3325251916/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(){return 0;}
+
+Determining if the memalign exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1138202514/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1138202514.dir/build.make CMakeFiles/cmTryCompileExec1138202514.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1138202514.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1138202514.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: 'memalign' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1138202514.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1138202514/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec362041671/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec362041671.dir/build.make CMakeFiles/cmTryCompileExec362041671.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec362041671.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec362041671.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: '_aligned_malloc' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec362041671.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec362041671/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _fileno exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2074392076/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2074392076.dir/build.make CMakeFiles/cmTryCompileExec2074392076.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2074392076.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2074392076.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: '_fileno' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2074392076.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2074392076/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fileno
+  return ((int*)(&_fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _commit exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1387664537/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1387664537.dir/build.make CMakeFiles/cmTryCompileExec1387664537.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1387664537.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1387664537.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:16: error: io.h: No such file or directory
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: '_commit' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1387664537.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1387664537/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _commit
+  return ((int*)(&_commit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rsqrt exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2290739865/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2290739865.dir/build.make CMakeFiles/cmTryCompileExec2290739865.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2290739865.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2290739865.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: 'rsqrt' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2290739865.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2290739865/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrt
+  return ((int*)(&rsqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rsqrtf exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec254620714/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec254620714.dir/build.make CMakeFiles/cmTryCompileExec254620714.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec254620714.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec254620714.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8: error: 'rsqrtf' was not declared in this scope
+gmake[1]: *** [CMakeFiles/cmTryCompileExec254620714.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec254620714/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rsqrtf
+  return ((int*)(&rsqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1688446202/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1688446202.dir/build.make CMakeFiles/cmTryCompileExec1688446202.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1688446202.dir/TestEndianess.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1688446202.dir/TestEndianess.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec1688446202
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1688446202.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1688446202.dir/TestEndianess.c.o  -o cmTryCompileExec1688446202 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1784504336/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1784504336.dir/build.make CMakeFiles/cmTryCompileExec1784504336.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1784504336.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1784504336.dir/CheckSymbolExists.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1784504336
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1784504336.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1784504336.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1784504336 -rdynamic 
+CMakeFiles/cmTryCompileExec1784504336.dir/CheckSymbolExists.c.o:(.toc+0x0): undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1784504336] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1784504336/fast] Error 2
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1982036441/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1982036441.dir/build.make CMakeFiles/cmTryCompileExec1982036441.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1982036441.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1982036441.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1982036441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1982036441.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1982036441.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1982036441 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1982036441] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1982036441/fast] Error 2
+
+
+Performing C SOURCE FILE Test _isfinite_compile_ok failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1448911514/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1448911514.dir/build.make CMakeFiles/cmTryCompileExec1448911514.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1448911514.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec1448911514.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:4: warning: implicit declaration of function '_isfinite'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:5: warning: control reaches end of non-void function
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:4: warning: 'f' is used uninitialized in this function
+Linking C executable cmTryCompileExec1448911514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1448911514.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_isfinite_compile_ok    CMakeFiles/cmTryCompileExec1448911514.dir/src.c.o  -o cmTryCompileExec1448911514 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec1448911514.dir/src.c.o:(.text+0x3c): undefined reference to `_isfinite'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1448911514] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1448911514/fast] Error 2
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  _isfinite(f);
+}
+Performing C SOURCE FILE Test _finite_compile_ok failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3346232982/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3346232982.dir/build.make CMakeFiles/cmTryCompileExec3346232982.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3346232982.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/float.h    -o CMakeFiles/cmTryCompileExec3346232982.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:4: warning: implicit declaration of function '_finite'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:5: warning: control reaches end of non-void function
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:4: warning: 'f' is used uninitialized in this function
+Linking C executable cmTryCompileExec3346232982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3346232982.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_finite_compile_ok    CMakeFiles/cmTryCompileExec3346232982.dir/src.c.o  -o cmTryCompileExec3346232982 -rdynamic 
+CMakeFiles/cmTryCompileExec3346232982.dir/src.c.o:(.text+0x3c): undefined reference to `_finite'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3346232982] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3346232982/fast] Error 2
+
+Source file was:
+#include <float.h>
+int main(void) {
+  float f;
+  _finite(f);
+}
+Performing C++ SOURCE FILE Test GMX_CXX11_SUPPORTED failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3987335019/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3987335019.dir/build.make CMakeFiles/cmTryCompileExec3987335019.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3987335019.dir/src.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DGMX_CXX11_SUPPORTED -std=c++0x   -o CMakeFiles/cmTryCompileExec3987335019.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:10: sorry, unimplemented: cannot expand 'Tail ...' into a fixed-length argument list
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:11: error: 'int' is not a class type
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:11: error: 'ListType' in class 'int' does not name a type
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:11: error: template argument 2 is invalid
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:11: error: expected '::' before 'ListType'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:13: error: only declarations of constructors can be 'explicit'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/unique_ptr.h: In copy constructor 'A::A(const A&)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:4:   instantiated from 'void __gnu_cxx::new_allocator<_Tp>::construct(_Tp*, _Args&& ...) [with _Args = A, _Tp = A]'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/vector.tcc:95:   instantiated from 'void std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = A, _Tp = A, _Alloc = std::allocator<A>]'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_vector.h:747:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(_Tp&&) [with _Tp = A, _Alloc = std::allocator<A>]'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:20:   instantiated from here
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/unique_ptr.h:214: error: deleted function 'std::unique_ptr<_Tp, _Tp_Deleter>::unique_ptr(const std::unique_ptr<_Tp, _Tp_Deleter>&) [with _Tp = int, _Tp_Deleter = std::default_delete<int>]'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:4: error: used here
+In file included from /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/ppc64-redhat-linux/bits/c++allocator.h:34,
+                 from /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/allocator.h:48,
+                 from /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/vector:62,
+                 from /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/ext/new_allocator.h: In member function 'void __gnu_cxx::new_allocator<_Tp>::construct(_Tp*, _Args&& ...) [with _Args = A, _Tp = A]':
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/ext/new_allocator.h:111: note: synthesized method 'A::A(const A&)' first required here 
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/unique_ptr.h: In member function 'A& A::operator=(const A&)':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:4:   instantiated from 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, _Args&& ...) [with _Args = A, _Tp = A, _Alloc = std::allocator<A>]'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/vector.tcc:100:   instantiated from 'void std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = A, _Tp = A, _Alloc = std::allocator<A>]'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/stl_vector.h:747:   instantiated from 'void std::vector<_Tp, _Alloc>::push_back(_Tp&&) [with _Tp = A, _Alloc = std::allocator<A>]'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:20:   instantiated from here
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/unique_ptr.h:219: error: deleted function 'std::unique_ptr<_Tp, _Tp_Deleter>& std::unique_ptr<_Tp, _Tp_Deleter>::operator=(const std::unique_ptr<_Tp, _Tp_Deleter>&) [with _Tp = int, _Tp_Deleter = std::default_delete<int>]'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:4: error: used here
+In file included from /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/vector:69,
+                 from /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/vector.tcc: In member function 'void std::vector<_Tp, _Alloc>::_M_insert_aux(__gnu_cxx::__normal_iterator<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type::pointer, std::vector<_Tp, _Alloc> >, _Args&& ...) [with _Args = A, _Tp = A, _Alloc = std::allocator<A>]':
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/bits/vector.tcc:314: note: synthesized method 'A& A::operator=(const A&)' first required here 
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3987335019.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3987335019/fast] Error 2
+
+Source file was:
+#include <vector>
+#include <memory>
+#include <utility>
+struct A {
+  A(int *i=NULL) : p(i) {} ;
+  std::unique_ptr<int> p;
+};
+template <typename Head, typename... Tail>
+struct VarList {
+  typedef VarList<Tail...> VarListTail;
+  typedef std::pair<Head, typename VarListTail::ListType> ListType;
+};
+class a { explicit operator bool() {return true;} };
+int main() {
+  typedef std::unique_ptr<int> intPointer;
+  intPointer p(new int(10));
+  std::vector<intPointer> v;
+  v.push_back(std::move(p));
+  std::vector<A> v2;
+  v2.push_back(A());  //requires default move constructor
+  v2.push_back(A(new int(5))); //detects bug in ICC
+}
+Determining if the include file regex exists failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1743349788/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1743349788.dir/build.make CMakeFiles/cmTryCompileExec1743349788.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1743349788.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1743349788.dir/CheckIncludeFile.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/regex:35,
+                 from /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/c++0x_warning.h:31:2: error: #error This file requires compiler and library support for the upcoming ISO C++ standard, C++0x. This support is currently experimental, and must be enabled with the -std=c++0x or -std=gnu++0x compiler options.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1743349788.dir/CheckIncludeFile.cxx.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1743349788/fast] Error 2
+
+
+Performing C SOURCE FILE Test _callconv___vectorcall failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2181751484/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2181751484.dir/build.make CMakeFiles/cmTryCompileExec2181751484.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2181751484.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___vectorcall   -o CMakeFiles/cmTryCompileExec2181751484.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'f'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:1: warning: implicit declaration of function 'f'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2181751484.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2181751484/fast] Error 2
+
+Source file was:
+int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
+Performing C SOURCE FILE Test _callconv___regcall failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3607918253/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3607918253.dir/build.make CMakeFiles/cmTryCompileExec3607918253.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3607918253.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv___regcall   -o CMakeFiles/cmTryCompileExec3607918253.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'f'
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:1: warning: implicit declaration of function 'f'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3607918253.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3607918253/fast] Error 2
+
+Source file was:
+int __regcall f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1135046817/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1135046817.dir/build.make CMakeFiles/cmTryCompileExec1135046817.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1135046817.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTryCompileExec1135046817.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1135046817
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1135046817.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTryCompileExec1135046817.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1135046817 -rdynamic -lessl -lblas 
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlfBeginIO'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `__xlf_omp_get_nested_i8'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_fill'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlzipowv'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xliltrm'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlcdivv'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlcabsv'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlidclg'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_acos'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_log'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `__xlf_omp_in_parallel_i8'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `pthread_once'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlfWriteFmt'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `flush_'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_clc'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlfEndIO'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xljjpow'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlidflr'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlzsqrtv'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlf_create_threadlocal'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `__xlf_malloc'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlcsqrtv'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlfStop'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_pow'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_sin'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `__xlf_omp_get_max_threads_i8'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xldipow'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlzdivv'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `__xlf_omp_get_num_threads_i8'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_cos'
+/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/libessl.so: undefined reference to `_xlzabsv'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1135046817] Error 1
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1135046817/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2335966181/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2335966181.dir/build.make CMakeFiles/cmTryCompileExec2335966181.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2335966181.dir/TestEndianess.c.o
+/usr/bin/gcc   -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2335966181.dir/TestEndianess.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2335966181
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2335966181.dir/link.txt --verbose=1
+/usr/bin/gcc   -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2335966181.dir/TestEndianess.c.o  -o cmTryCompileExec2335966181 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

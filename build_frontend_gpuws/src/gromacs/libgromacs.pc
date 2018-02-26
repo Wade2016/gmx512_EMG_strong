@@ -1,0 +1,11 @@
+libdir=/home/wenping/gmx512_EMG/lib
+
+Name: libgromacs
+Description: Gromacs library
+URL: http://www.gromacs.org
+Version: 5.1.2
+Requires:  
+Libs.private: -lpthread -ldl -fopenmp
+Libs: -L${libdir} -lgromacs  -lm
+Cflags:  -I/home/wenping/gmx512_EMG/include -I/usr/include -DGMX_SOFTWARE_INVSQRT -fopenmp
+

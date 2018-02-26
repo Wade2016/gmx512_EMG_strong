@@ -1,0 +1,1677 @@
+The system is: Linux - 3.10.0-514.26.2.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_aadb9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_aadb9.dir/build.make CMakeFiles/cmTC_aadb9.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aadb9.dir/testCCompiler.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc     -o CMakeFiles/cmTC_aadb9.dir/testCCompiler.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_aadb9
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aadb9.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc       CMakeFiles/cmTC_aadb9.dir/testCCompiler.c.o  -o cmTC_aadb9 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7e70f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7e70f.dir/build.make CMakeFiles/cmTC_7e70f.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc     -o CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o   -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7e70f
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e70f.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc      -v CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o  -o cmTC_7e70f -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-gold=default --enable-plugins --enable-ld --with-plugin-ld=ld.gold --prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --with-local-prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --enable-bootstrap --with-isl=/dev/shm/swmanage/GCCcore/5.4.0/dummy-/gcc-5.4.0/stage2_stuff
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COMPILER_PATH=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e70f' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7U8RDZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7e70f /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64 -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_7e70f/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7e70f.dir/build.make CMakeFiles/cmTC_7e70f.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc     -o CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o   -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7e70f]
+  ignore line: [/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e70f.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc      -v CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o  -o cmTC_7e70f -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-gold=default --enable-plugins --enable-ld --with-plugin-ld=ld.gold --prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --with-local-prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --enable-bootstrap --with-isl=/dev/shm/swmanage/GCCcore/5.4.0/dummy-/gcc-5.4.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7e70f' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7U8RDZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7e70f /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64 -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7U8RDZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7e70f] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_7e70f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64] ==> [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> [/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/lib64;/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64;/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0;/lib64;/usr/lib64;/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64;/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64;/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64;/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_be104/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_be104.dir/build.make CMakeFiles/cmTC_be104.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be104.dir/feature_tests.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -std=c11 -o CMakeFiles/cmTC_be104.dir/feature_tests.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/feature_tests.c
+Linking C executable cmTC_be104
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be104.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc       CMakeFiles/cmTC_be104.dir/feature_tests.c.o  -o cmTC_be104 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ab469/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab469.dir/build.make CMakeFiles/cmTC_ab469.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab469.dir/feature_tests.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -std=c99 -o CMakeFiles/cmTC_ab469.dir/feature_tests.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ab469
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab469.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc       CMakeFiles/cmTC_ab469.dir/feature_tests.c.o  -o cmTC_ab469 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_10771/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_10771.dir/build.make CMakeFiles/cmTC_10771.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10771.dir/feature_tests.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -std=c90 -o CMakeFiles/cmTC_10771.dir/feature_tests.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/feature_tests.c
+Linking C executable cmTC_10771
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10771.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc       CMakeFiles/cmTC_10771.dir/feature_tests.c.o  -o cmTC_10771 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cdd53/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cdd53.dir/build.make CMakeFiles/cmTC_cdd53.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdd53.dir/testCXXCompiler.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++      -o CMakeFiles/cmTC_cdd53.dir/testCXXCompiler.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cdd53
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdd53.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++        CMakeFiles/cmTC_cdd53.dir/testCXXCompiler.cxx.o  -o cmTC_cdd53 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e04bf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e04bf.dir/build.make CMakeFiles/cmTC_e04bf.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++      -o CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e04bf
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e04bf.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++       -v CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e04bf -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++
+COLLECT_LTO_WRAPPER=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-gold=default --enable-plugins --enable-ld --with-plugin-ld=ld.gold --prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --with-local-prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --enable-bootstrap --with-isl=/dev/shm/swmanage/GCCcore/5.4.0/dummy-/gcc-5.4.0/stage2_stuff
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COMPILER_PATH=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e04bf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0k7v1C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e04bf /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64 -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_e04bf/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_e04bf.dir/build.make CMakeFiles/cmTC_e04bf.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++      -o CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e04bf]
+  ignore line: [/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e04bf.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++       -v CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e04bf -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --enable-languages=c,c++,fortran --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-gold=default --enable-plugins --enable-ld --with-plugin-ld=ld.gold --prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --with-local-prefix=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0 --enable-bootstrap --with-isl=/dev/shm/swmanage/GCCcore/5.4.0/dummy-/gcc-5.4.0/stage2_stuff]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/:/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64/:/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/:/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e04bf' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0k7v1C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e04bf /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64 -L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64 -L/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64 -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib -L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0k7v1C.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e04bf] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+    arg [-L/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_e04bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64/../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64/../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64] ==> [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64] ==> [/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+  collapse library dir [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> [/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/lib64;/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib64;/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0;/lib64;/usr/lib64;/usr/local/software/jureca/Stages/2017a/software/ncurses/6.0-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/Grace/5.1.25-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/motif/2.3.6-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/X11/20170129-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/fontconfig/2.12.1-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/expat/2.2.0-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/bzip2/1.0.6-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/libjpeg-turbo/1.5.1-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/freetype/2.7.1-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/libpng/1.6.28-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/zlib/1.2.11-iccifort-2017.2.174-GCC-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/mpi/intel64;/usr/local/software/jureca/Stages/2017a/software/ifort/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64;/usr/local/software/jureca/Stages/2017a/software/icc/2017.2.174-GCC-5.4.0/compilers_and_libraries_2017.2.174/linux/compiler/lib/intel64;/usr/local/software/jureca/Stages/2017a/software/binutils/2.28-GCCcore-5.4.0/lib;/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ba0a5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ba0a5.dir/build.make CMakeFiles/cmTC_ba0a5.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba0a5.dir/feature_tests.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -std=c++14 -o CMakeFiles/cmTC_ba0a5.dir/feature_tests.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ba0a5
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba0a5.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++        CMakeFiles/cmTC_ba0a5.dir/feature_tests.cxx.o  -o cmTC_ba0a5 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_53871/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_53871.dir/build.make CMakeFiles/cmTC_53871.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53871.dir/feature_tests.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -std=c++11 -o CMakeFiles/cmTC_53871.dir/feature_tests.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_53871
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53871.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++        CMakeFiles/cmTC_53871.dir/feature_tests.cxx.o  -o cmTC_53871 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e33f6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e33f6.dir/build.make CMakeFiles/cmTC_e33f6.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e33f6.dir/feature_tests.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -std=c++98 -o CMakeFiles/cmTC_e33f6.dir/feature_tests.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e33f6
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e33f6.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++        CMakeFiles/cmTC_e33f6.dir/feature_tests.cxx.o  -o cmTC_e33f6 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a4511/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a4511.dir/build.make CMakeFiles/cmTC_a4511.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4511.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_a4511.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4511
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4511.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_a4511.dir/src.c.o  -o cmTC_a4511 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ba68f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ba68f.dir/build.make CMakeFiles/cmTC_ba68f.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba68f.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_ba68f.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ba68f
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba68f.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_ba68f.dir/src.cxx.o  -o cmTC_ba68f -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test CFLAGS_WARN succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e8f2b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e8f2b.dir/build.make CMakeFiles/cmTC_e8f2b.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8f2b.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_WARN -Wall -Wno-unused -Wunused-value -Wunused-parameter   -o CMakeFiles/cmTC_e8f2b.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8f2b
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8f2b.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_WARN -Wall -Wno-unused -Wunused-value -Wunused-parameter    CMakeFiles/cmTC_e8f2b.dir/src.c.o  -o cmTC_e8f2b -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_EXTRA succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_faf8a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_faf8a.dir/build.make CMakeFiles/cmTC_faf8a.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_faf8a.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith   -o CMakeFiles/cmTC_faf8a.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_faf8a
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faf8a.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith    CMakeFiles/cmTC_faf8a.dir/src.c.o  -o cmTC_faf8a -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_UNDEF succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_048fb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_048fb.dir/build.make CMakeFiles/cmTC_048fb.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_048fb.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_WARN_UNDEF -Wundef   -o CMakeFiles/cmTC_048fb.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_048fb
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048fb.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_WARN_UNDEF -Wundef    CMakeFiles/cmTC_048fb.dir/src.c.o  -o cmTC_048fb -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_REL succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_58e53/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_58e53.dir/build.make CMakeFiles/cmTC_58e53.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58e53.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_WARN_REL -Wno-array-bounds   -o CMakeFiles/cmTC_58e53.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58e53
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e53.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_WARN_REL -Wno-array-bounds    CMakeFiles/cmTC_58e53.dir/src.c.o  -o cmTC_58e53 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2bd8e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2bd8e.dir/build.make CMakeFiles/cmTC_2bd8e.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bd8e.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_EXCESS_PREC -fexcess-precision=fast   -o CMakeFiles/cmTC_2bd8e.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2bd8e
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd8e.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_EXCESS_PREC -fexcess-precision=fast    CMakeFiles/cmTC_2bd8e.dir/src.c.o  -o cmTC_2bd8e -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_28d62/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_28d62.dir/build.make CMakeFiles/cmTC_28d62.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28d62.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_COPT -funroll-all-loops   -o CMakeFiles/cmTC_28d62.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28d62
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28d62.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_COPT -funroll-all-loops    CMakeFiles/cmTC_28d62.dir/src.c.o  -o cmTC_28d62 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a8747/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a8747.dir/build.make CMakeFiles/cmTC_a8747.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8747.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCFLAGS_NOINLINE -fno-inline   -o CMakeFiles/cmTC_a8747.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a8747
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8747.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCFLAGS_NOINLINE -fno-inline    CMakeFiles/cmTC_a8747.dir/src.c.o  -o cmTC_a8747 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ab8ba/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab8ba.dir/build.make CMakeFiles/cmTC_ab8ba.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab8ba.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DCXXFLAGS_WARN -Wall -Wno-unused-function   -o CMakeFiles/cmTC_ab8ba.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ab8ba
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab8ba.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DCXXFLAGS_WARN -Wall -Wno-unused-function    CMakeFiles/cmTC_ab8ba.dir/src.cxx.o  -o cmTC_ab8ba -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_EXTRA succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7c6aa/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7c6aa.dir/build.make CMakeFiles/cmTC_7c6aa.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c6aa.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DCXXFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wpointer-arith   -o CMakeFiles/cmTC_7c6aa.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c6aa
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c6aa.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DCXXFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wpointer-arith    CMakeFiles/cmTC_7c6aa.dir/src.cxx.o  -o cmTC_7c6aa -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_UNDEF succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_286af/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_286af.dir/build.make CMakeFiles/cmTC_286af.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_286af.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DCXXFLAGS_WARN_UNDEF -Wundef   -o CMakeFiles/cmTC_286af.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_286af
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_286af.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DCXXFLAGS_WARN_UNDEF -Wundef    CMakeFiles/cmTC_286af.dir/src.cxx.o  -o cmTC_286af -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test CXXFLAGS_WARN_REL succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9f0c7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9f0c7.dir/build.make CMakeFiles/cmTC_9f0c7.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f0c7.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -DCXXFLAGS_WARN_REL -Wno-array-bounds   -o CMakeFiles/cmTC_9f0c7.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9f0c7
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f0c7.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -DCXXFLAGS_WARN_REL -Wno-array-bounds    CMakeFiles/cmTC_9f0c7.dir/src.c.o  -o cmTC_9f0c7 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c8189/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c8189.dir/build.make CMakeFiles/cmTC_c8189.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8189.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DCXXFLAGS_EXCESS_PREC -fexcess-precision=fast   -o CMakeFiles/cmTC_c8189.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8189
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8189.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DCXXFLAGS_EXCESS_PREC -fexcess-precision=fast    CMakeFiles/cmTC_c8189.dir/src.cxx.o  -o cmTC_c8189 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_39529/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_39529.dir/build.make CMakeFiles/cmTC_39529.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39529.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DCXXFLAGS_COPT -funroll-all-loops   -o CMakeFiles/cmTC_39529.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_39529
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39529.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DCXXFLAGS_COPT -funroll-all-loops    CMakeFiles/cmTC_39529.dir/src.cxx.o  -o cmTC_39529 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c77b8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c77b8.dir/build.make CMakeFiles/cmTC_c77b8.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c77b8.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -DCXXFLAGS_NOINLINE -fno-inline   -o CMakeFiles/cmTC_c77b8.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c77b8
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c77b8.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -DCXXFLAGS_NOINLINE -fno-inline    CMakeFiles/cmTC_c77b8.dir/src.cxx.o  -o cmTC_c77b8 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bab17/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bab17.dir/build.make CMakeFiles/cmTC_bab17.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bab17.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_bab17.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_bab17
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bab17.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_bab17.dir/CheckIncludeFiles.c.o  -o cmTC_bab17 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d03c4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d03c4.dir/build.make CMakeFiles/cmTC_d03c4.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d03c4.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_d03c4.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d03c4
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d03c4.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_d03c4.dir/CheckIncludeFiles.c.o  -o cmTC_d03c4 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d7da6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d7da6.dir/build.make CMakeFiles/cmTC_d7da6.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7da6.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_d7da6.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d7da6
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7da6.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_d7da6.dir/CheckIncludeFiles.c.o  -o cmTC_d7da6 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_df408/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_df408.dir/build.make CMakeFiles/cmTC_df408.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df408.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_df408.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_df408
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df408.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_df408.dir/CheckIncludeFiles.c.o  -o cmTC_df408 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ba578/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ba578.dir/build.make CMakeFiles/cmTC_ba578.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba578.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_ba578.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ba578
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba578.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_ba578.dir/CheckIncludeFiles.c.o  -o cmTC_ba578 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c4d43/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c4d43.dir/build.make CMakeFiles/cmTC_c4d43.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4d43.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_c4d43.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c4d43
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4d43.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_c4d43.dir/CheckIncludeFiles.c.o  -o cmTC_c4d43 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c027e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c027e.dir/build.make CMakeFiles/cmTC_c027e.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c027e.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_c027e.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c027e
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c027e.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_c027e.dir/CheckIncludeFiles.c.o  -o cmTC_c027e -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_28cf0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_28cf0.dir/build.make CMakeFiles/cmTC_28cf0.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28cf0.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_28cf0.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_28cf0
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28cf0.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_28cf0.dir/CheckSymbolExists.cxx.o  -o cmTC_28cf0 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d899e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d899e.dir/build.make CMakeFiles/cmTC_d899e.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d899e.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_d899e.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d899e
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d899e.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_d899e.dir/CheckSymbolExists.cxx.o  -o cmTC_d899e -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ac5cb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ac5cb.dir/build.make CMakeFiles/cmTC_ac5cb.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac5cb.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_ac5cb.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ac5cb
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac5cb.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_ac5cb.dir/CheckSymbolExists.cxx.o  -o cmTC_ac5cb -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nice exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bf189/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bf189.dir/build.make CMakeFiles/cmTC_bf189.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf189.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_bf189.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_bf189
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf189.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_bf189.dir/CheckSymbolExists.cxx.o  -o cmTC_bf189 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fsync exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7dded/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7dded.dir/build.make CMakeFiles/cmTC_7dded.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dded.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_7dded.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_7dded
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dded.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_7dded.dir/CheckSymbolExists.cxx.o  -o cmTC_7dded -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fileno exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_89ed0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_89ed0.dir/build.make CMakeFiles/cmTC_89ed0.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89ed0.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_89ed0.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_89ed0
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89ed0.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_89ed0.dir/CheckSymbolExists.cxx.o  -o cmTC_89ed0 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_07c53/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_07c53.dir/build.make CMakeFiles/cmTC_07c53.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07c53.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_07c53.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_07c53
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c53.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_07c53.dir/CheckSymbolExists.cxx.o  -o cmTC_07c53 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_01ce9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_01ce9.dir/build.make CMakeFiles/cmTC_01ce9.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01ce9.dir/CheckSymbolExists.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTC_01ce9.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_01ce9
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01ce9.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTC_01ce9.dir/CheckSymbolExists.cxx.o  -o cmTC_01ce9 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_49b2f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_49b2f.dir/build.make CMakeFiles/cmTC_49b2f.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49b2f.dir/CheckFunctionExists.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_49b2f.dir/CheckFunctionExists.c.o   -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49b2f
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49b2f.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_49b2f.dir/CheckFunctionExists.c.o  -o cmTC_49b2f -rdynamic -lrt 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_27757/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_27757.dir/build.make CMakeFiles/cmTC_27757.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27757.dir/CheckFunctionExists.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=feenableexcept   -o CMakeFiles/cmTC_27757.dir/CheckFunctionExists.c.o   -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_27757
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27757.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=feenableexcept    CMakeFiles/cmTC_27757.dir/CheckFunctionExists.c.o  -o cmTC_27757 -rdynamic -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e56bf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e56bf.dir/build.make CMakeFiles/cmTC_e56bf.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e56bf.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Dsched_affinity_compile   -o CMakeFiles/cmTC_e56bf.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e56bf
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e56bf.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Dsched_affinity_compile    CMakeFiles/cmTC_e56bf.dir/src.c.o  -o cmTC_e56bf -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2406c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2406c.dir/build.make CMakeFiles/cmTC_2406c.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2406c.dir/CheckIncludeFile.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_2406c.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2406c
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2406c.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_2406c.dir/CheckIncludeFile.c.o  -o cmTC_2406c -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_56687/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_56687.dir/build.make CMakeFiles/cmTC_56687.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56687.dir/CheckIncludeFile.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_56687.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_56687
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56687.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_56687.dir/CheckIncludeFile.c.o  -o cmTC_56687 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9bb27/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9bb27.dir/build.make CMakeFiles/cmTC_9bb27.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bb27.dir/CheckIncludeFile.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_9bb27.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9bb27
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb27.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_9bb27.dir/CheckIncludeFile.c.o  -o cmTC_9bb27 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0122f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0122f.dir/build.make CMakeFiles/cmTC_0122f.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0122f.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_0122f.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_0122f
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0122f.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_0122f.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_0122f -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_eac7f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eac7f.dir/build.make CMakeFiles/cmTC_eac7f.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eac7f.dir/TestEndianess.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_eac7f.dir/TestEndianess.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_eac7f
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eac7f.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_eac7f.dir/TestEndianess.c.o  -o cmTC_eac7f -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function zlibVersion exists in the /usr/lib64/libz.so passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6ec2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6ec2.dir/build.make CMakeFiles/cmTC_d6ec2.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6ec2.dir/CheckFunctionExists.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=zlibVersion   -o CMakeFiles/cmTC_d6ec2.dir/CheckFunctionExists.c.o   -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d6ec2
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6ec2.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=zlibVersion    CMakeFiles/cmTC_d6ec2.dir/CheckFunctionExists.c.o  -o cmTC_d6ec2 -rdynamic /usr/lib64/libz.so 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4f6a1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4f6a1.dir/build.make CMakeFiles/cmTC_4f6a1.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f6a1.dir/CheckIncludeFile.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_4f6a1.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4f6a1
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f6a1.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_4f6a1.dir/CheckIncludeFile.c.o  -o cmTC_4f6a1 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8db7b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8db7b.dir/build.make CMakeFiles/cmTC_8db7b.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8db7b.dir/CheckFunctionExists.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8db7b.dir/CheckFunctionExists.c.o   -c /usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8db7b
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db7b.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8db7b.dir/CheckFunctionExists.c.o  -o cmTC_8db7b -rdynamic -lpthread 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_12859/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_12859.dir/build.make CMakeFiles/cmTC_12859.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12859.dir/CheckIncludeFiles.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_12859.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_12859
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12859.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_12859.dir/CheckIncludeFiles.c.o  -o cmTC_12859 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test PTHREAD_SETAFFINITY succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_10685/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_10685.dir/build.make CMakeFiles/cmTC_10685.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10685.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DPTHREAD_SETAFFINITY   -o CMakeFiles/cmTC_10685.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_10685
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10685.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DPTHREAD_SETAFFINITY    CMakeFiles/cmTC_10685.dir/src.c.o  -o cmTC_10685 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test isfinite_compile_ok succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_280c5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_280c5.dir/build.make CMakeFiles/cmTC_280c5.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_280c5.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/math.h  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Disfinite_compile_ok   -o CMakeFiles/cmTC_280c5.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_280c5
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_280c5.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Disfinite_compile_ok    CMakeFiles/cmTC_280c5.dir/src.c.o  -o cmTC_280c5 -rdynamic -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  isfinite(f);
+  return 0;
+}
+Performing C++ SOURCE FILE Test CXXFLAG_STD_CXX0X succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_67ff2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_67ff2.dir/build.make CMakeFiles/cmTC_67ff2.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_67ff2.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXXFLAG_STD_CXX0X -std=c++0x   -o CMakeFiles/cmTC_67ff2.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_67ff2
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ff2.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXXFLAG_STD_CXX0X -std=c++0x    CMakeFiles/cmTC_67ff2.dir/src.cxx.o  -o cmTC_67ff2 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test GMX_CXX11_SUPPORTED succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_06e71/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_06e71.dir/build.make CMakeFiles/cmTC_06e71.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06e71.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DGMX_CXX11_SUPPORTED -std=c++0x   -o CMakeFiles/cmTC_06e71.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06e71
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06e71.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DGMX_CXX11_SUPPORTED -std=c++0x    CMakeFiles/cmTC_06e71.dir/src.cxx.o  -o cmTC_06e71 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <vector>
+#include <memory>
+#include <utility>
+struct A {
+  A(int *i=NULL) : p(i) {} ;
+  std::unique_ptr<int> p;
+};
+template <typename Head, typename... Tail>
+struct VarList {
+  typedef VarList<Tail...> VarListTail;
+  typedef std::pair<Head, typename VarListTail::ListType> ListType;
+};
+class a { explicit operator bool() {return true;} };
+int main() {
+  typedef std::unique_ptr<int> intPointer;
+  intPointer p(new int(10));
+  std::vector<intPointer> v;
+  v.push_back(std::move(p));
+  std::vector<A> v2;
+  v2.push_back(A());  //requires default move constructor
+  v2.push_back(A(new int(5))); //detects bug in ICC
+}
+Performing C SOURCE FILE Test C_FLAG_march_core_avx2 succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f50be/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f50be.dir/build.make CMakeFiles/cmTC_f50be.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f50be.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_FLAG_march_core_avx2 -march=core-avx2   -o CMakeFiles/cmTC_f50be.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f50be
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50be.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_FLAG_march_core_avx2 -march=core-avx2    CMakeFiles/cmTC_f50be.dir/src.c.o  -o cmTC_f50be -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SIMD_COMPILES_FLAG_march_core_avx2 succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_25e63/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_25e63.dir/build.make CMakeFiles/cmTC_25e63.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25e63.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2   -o CMakeFiles/cmTC_25e63.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_25e63
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25e63.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2    CMakeFiles/cmTC_25e63.dir/src.c.o  -o cmTC_25e63 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<immintrin.h>
+                              int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C++ SOURCE FILE Test CXX_FLAG_march_core_avx2 succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_485d4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_485d4.dir/build.make CMakeFiles/cmTC_485d4.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_485d4.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_FLAG_march_core_avx2 -march=core-avx2   -o CMakeFiles/cmTC_485d4.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_485d4
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_485d4.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_FLAG_march_core_avx2 -march=core-avx2    CMakeFiles/cmTC_485d4.dir/src.cxx.o  -o cmTC_485d4 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SIMD_COMPILES_FLAG_march_core_avx2 succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_54f7a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_54f7a.dir/build.make CMakeFiles/cmTC_54f7a.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54f7a.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2   -o CMakeFiles/cmTC_54f7a.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_54f7a
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54f7a.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_SIMD_COMPILES_FLAG_march_core_avx2  -march=core-avx2    CMakeFiles/cmTC_54f7a.dir/src.cxx.o  -o cmTC_54f7a -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<immintrin.h>
+                                int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C SOURCE FILE Test _callconv_ succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_844b0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_844b0.dir/build.make CMakeFiles/cmTC_844b0.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_844b0.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv_   -o CMakeFiles/cmTC_844b0.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_844b0
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_844b0.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv_    CMakeFiles/cmTC_844b0.dir/src.c.o  -o cmTC_844b0 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int  f(int i) {return i;} int main(void) {return f(0);}
+Performing C SOURCE FILE Test HAVE_DLOPEN succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8bdd8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8bdd8.dir/build.make CMakeFiles/cmTC_8bdd8.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bdd8.dir/src.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/dlfcn.h  -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DHAVE_DLOPEN   -o CMakeFiles/cmTC_8bdd8.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8bdd8
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bdd8.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DHAVE_DLOPEN    CMakeFiles/cmTC_8bdd8.dir/src.c.o  -o cmTC_8bdd8 -rdynamic -ldl 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <dlfcn.h>
+int main(void) {
+  dlopen(0,0);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_06a55/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_06a55.dir/build.make CMakeFiles/cmTC_06a55.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06a55.dir/TestEndianess.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_06a55.dir/TestEndianess.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_06a55
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06a55.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_06a55.dir/TestEndianess.c.o  -o cmTC_06a55 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3c785/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3c785.dir/build.make CMakeFiles/cmTC_3c785.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c785.dir/CheckIncludeFile.c.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc    -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTC_3c785.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3c785
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c785.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/gcc   -march=core-avx2    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTC_3c785.dir/CheckIncludeFile.c.o  -o cmTC_3c785 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6d055/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6d055.dir/build.make CMakeFiles/cmTC_6d055.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d055.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter   -o CMakeFiles/cmTC_6d055.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6d055
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d055.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter    CMakeFiles/cmTC_6d055.dir/src.cxx.o  -o cmTC_6d055 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_NO_DEPRECATED_REGISTER succeeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_98041/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_98041.dir/build.make CMakeFiles/cmTC_98041.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98041.dir/src.cxx.o
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++     -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register   -o CMakeFiles/cmTC_98041.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98041
+/usr/local/software/jureca/Stages/2017a/software/CMake/3.7.2-GCCcore-5.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98041.dir/link.txt --verbose=1
+/usr/local/software/jureca/Stages/2017a/software/GCCcore/5.4.0/bin/g++    -march=core-avx2   -std=c++0x  -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register    CMakeFiles/cmTC_98041.dir/src.cxx.o  -o cmTC_98041 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}

@@ -1,0 +1,3 @@
+/homea/ias-5/wenping/gmx512_EM_BGQ/share/gromacs/COPYING
+/homea/ias-5/wenping/gmx512_EM_BGQ/bin/mdrun_mpi
+/homea/ias-5/wenping/gmx512_EM_BGQ/bin/gmx-completion-mdrun_mpi.bash

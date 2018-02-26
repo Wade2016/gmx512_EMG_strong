@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/src/contrib/fftw/fftw.tar.gz'
+tag='MD5=2edab8c06b24feeb3b82bbb3ebf3e7b3'

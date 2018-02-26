@@ -1,0 +1,1142 @@
+The target system is: BlueGeneQ-static -  - 
+The host system is: Linux - 2.6.32-696.6.3.el6.ppc64 - ppc64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /bgsys/drivers/ppcfloor/comm/xl/bin/mpicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is XL, found in "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is XL, found in "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3328164003/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3328164003.dir/build.make CMakeFiles/cmTryCompileExec3328164003.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3328164003.dir/testCCompiler.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e    -o CMakeFiles/cmTryCompileExec3328164003.dir/testCCompiler.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3328164003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3328164003.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e     CMakeFiles/cmTryCompileExec3328164003.dir/testCCompiler.c.o  -o cmTryCompileExec3328164003  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec692974549/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec692974549.dir/build.make CMakeFiles/cmTryCompileExec692974549.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e    -o CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec692974549
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec692974549.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e   -V CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec692974549   
+export XL_CONFIG=/opt/ibmcmp/vac/bg/12.1/etc/vac.cfg.rhel6.9.gcc447:bgxlc_r 
+/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/bin/ld --eh-frame-hdr -Qy -melf64ppc -static -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crt1.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crti.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtbeginT.o -L/opt/ibmcmp/xlsmp/bg/3.1/bglib64 -L/opt/ibmcmp/xlmass/bg/7.3/bglib64 -L/opt/ibmcmp/vac/bg/12.1/bglib64 -L/opt/ibmcmp/vacpp/bg/12.1/bglib64 -R/opt/ibmcmp/lib64/bg/bglib64 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o -o cmTryCompileExec692974549 -lmpich-xl -lopa-xl -lmpl-xl -lpami-gcc -lSPI -lSPI_cnk -lrt -lpthread -lstdc++ -lpthread -lxlopt -lxl -ldl -lpthread -lgcc -lm --start-group -lc -lnss_files -lnss_dns -lresolv --end-group -lgcc -lgcc_eh /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtend.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crtn.o 
+rm /tmp/xlcW0KQuBMz
+rm /tmp/xlcW1e0FZpZ
+rm /tmp/xlcW28gUi3o
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec692974549/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec692974549.dir/build.make CMakeFiles/cmTryCompileExec692974549.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e    -o CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec692974549]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec692974549.dir/link.txt --verbose=1]
+  ignore line: [/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e   -V CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec692974549   ]
+  ignore line: [export XL_CONFIG=/opt/ibmcmp/vac/bg/12.1/etc/vac.cfg.rhel6.9.gcc447:bgxlc_r ]
+  link line: [/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/bin/ld --eh-frame-hdr -Qy -melf64ppc -static -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crt1.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crti.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtbeginT.o -L/opt/ibmcmp/xlsmp/bg/3.1/bglib64 -L/opt/ibmcmp/xlmass/bg/7.3/bglib64 -L/opt/ibmcmp/vac/bg/12.1/bglib64 -L/opt/ibmcmp/vacpp/bg/12.1/bglib64 -R/opt/ibmcmp/lib64/bg/bglib64 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o -o cmTryCompileExec692974549 -lmpich-xl -lopa-xl -lmpl-xl -lpami-gcc -lSPI -lSPI_cnk -lrt -lpthread -lstdc++ -lpthread -lxlopt -lxl -ldl -lpthread -lgcc -lm --start-group -lc -lnss_files -lnss_dns -lresolv --end-group -lgcc -lgcc_eh /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtend.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crtn.o ]
+    arg [/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-Qy] ==> ignore
+    arg [-melf64ppc] ==> ignore
+    arg [-static] ==> ignore
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crt1.o] ==> ignore
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crti.o] ==> ignore
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtbeginT.o] ==> ignore
+    arg [-L/opt/ibmcmp/xlsmp/bg/3.1/bglib64] ==> dir [/opt/ibmcmp/xlsmp/bg/3.1/bglib64]
+    arg [-L/opt/ibmcmp/xlmass/bg/7.3/bglib64] ==> dir [/opt/ibmcmp/xlmass/bg/7.3/bglib64]
+    arg [-L/opt/ibmcmp/vac/bg/12.1/bglib64] ==> dir [/opt/ibmcmp/vac/bg/12.1/bglib64]
+    arg [-L/opt/ibmcmp/vacpp/bg/12.1/bglib64] ==> dir [/opt/ibmcmp/vacpp/bg/12.1/bglib64]
+    arg [-R/opt/ibmcmp/lib64/bg/bglib64] ==> ignore
+    arg [-L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7] ==> dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7]
+    arg [-L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc] ==> dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc]
+    arg [-L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib] ==> dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib]
+    arg [CMakeFiles/cmTryCompileExec692974549.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec692974549] ==> ignore
+    arg [-lmpich-xl] ==> lib [mpich-xl]
+    arg [-lopa-xl] ==> lib [opa-xl]
+    arg [-lmpl-xl] ==> lib [mpl-xl]
+    arg [-lpami-gcc] ==> lib [pami-gcc]
+    arg [-lSPI] ==> lib [SPI]
+    arg [-lSPI_cnk] ==> lib [SPI_cnk]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lxlopt] ==> lib [xlopt]
+    arg [-lxl] ==> lib [xl]
+    arg [-ldl] ==> lib [dl]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lnss_files] ==> lib [nss_files]
+    arg [-lnss_dns] ==> lib [nss_dns]
+    arg [-lresolv] ==> lib [resolv]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtend.o] ==> ignore
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/opt/ibmcmp/xlsmp/bg/3.1/bglib64] ==> [/opt/ibmcmp/xlsmp/bg/3.1/bglib64]
+  collapse library dir [/opt/ibmcmp/xlmass/bg/7.3/bglib64] ==> [/opt/ibmcmp/xlmass/bg/7.3/bglib64]
+  collapse library dir [/opt/ibmcmp/vac/bg/12.1/bglib64] ==> [/opt/ibmcmp/vac/bg/12.1/bglib64]
+  collapse library dir [/opt/ibmcmp/vacpp/bg/12.1/bglib64] ==> [/opt/ibmcmp/vacpp/bg/12.1/bglib64]
+  collapse library dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7] ==> [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7]
+  collapse library dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc] ==> [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc]
+  collapse library dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib] ==> [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/powerpc64-bgq-linux/lib]
+  implicit libs: [mpich-xl;opa-xl;mpl-xl;pami-gcc;SPI;SPI_cnk;rt;pthread;stdc++;pthread;xlopt;xl;dl;pthread;m;c;nss_files;nss_dns;resolv]
+  implicit dirs: [/bgsys/drivers/V1R2M5/ppc64/comm/lib;/bgsys/drivers/V1R2M5/ppc64/comm/lib64;/bgsys/drivers/V1R2M5/ppc64/spi/lib;/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib;/opt/ibmcmp/xlsmp/bg/3.1/bglib64;/opt/ibmcmp/xlmass/bg/7.3/bglib64;/opt/ibmcmp/vac/bg/12.1/bglib64;/opt/ibmcmp/vacpp/bg/12.1/bglib64;/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7;/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc;/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/powerpc64-bgq-linux/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2334503635/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2334503635.dir/build.make CMakeFiles/cmTryCompileExec2334503635.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2334503635.dir/testCXXCompiler.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e    -o CMakeFiles/cmTryCompileExec2334503635.dir/testCXXCompiler.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2334503635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2334503635.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e     CMakeFiles/cmTryCompileExec2334503635.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2334503635  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1174840418/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1174840418.dir/build.make CMakeFiles/cmTryCompileExec1174840418.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e    -o CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1174840418
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1174840418.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e   -V CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1174840418   
+export XL_CONFIG=/opt/ibmcmp/vac/bg/12.1/etc/vac.cfg.rhel6.9.gcc447:bgxlC_r 
+/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/bin/ld --eh-frame-hdr -Qy -melf64ppc -static -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crt1.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crti.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtbeginT.o -L/opt/ibmcmp/xlsmp/bg/3.1/bglib64 -L/opt/ibmcmp/xlmass/bg/7.3/bglib64 -L/opt/ibmcmp/vac/bg/12.1/bglib64 -L/opt/ibmcmp/vacpp/bg/12.1/bglib64 -R/opt/ibmcmp/lib64/bg/bglib64 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o -o cmTryCompileExec1174840418 -lmpichcxx-xl -lmpich-xl -lopa-xl -lmpl-xl -lpami-gcc -lSPI -lSPI_cnk -lrt -lpthread -lstdc++ -lpthread -lxlopt -lxl -libmc++ -lstdc++ -lm -ldl -lpthread -lgcc -lm --start-group -lc -lnss_files -lnss_dns -lresolv --end-group -lgcc -lgcc_eh /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtend.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crtn.o 
+rm /tmp/xlcW02QWaum
+rm /tmp/xlcW1CAJ0Ny
+rm /tmp/xlcW2Gx7L7K
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1174840418/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1174840418.dir/build.make CMakeFiles/cmTryCompileExec1174840418.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e    -o CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1174840418]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1174840418.dir/link.txt --verbose=1]
+  ignore line: [/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e   -V CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1174840418   ]
+  ignore line: [export XL_CONFIG=/opt/ibmcmp/vac/bg/12.1/etc/vac.cfg.rhel6.9.gcc447:bgxlC_r ]
+  link line: [/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/bin/ld --eh-frame-hdr -Qy -melf64ppc -static -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib64 -L/bgsys/drivers/V1R2M5/ppc64/comm/lib -L/bgsys/drivers/V1R2M5/ppc64/spi/lib -L/bgsys/drivers/V1R2M5/ppc64/comm/lib /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crt1.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crti.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtbeginT.o -L/opt/ibmcmp/xlsmp/bg/3.1/bglib64 -L/opt/ibmcmp/xlmass/bg/7.3/bglib64 -L/opt/ibmcmp/vac/bg/12.1/bglib64 -L/opt/ibmcmp/vacpp/bg/12.1/bglib64 -R/opt/ibmcmp/lib64/bg/bglib64 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7 -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc -L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o -o cmTryCompileExec1174840418 -lmpichcxx-xl -lmpich-xl -lopa-xl -lmpl-xl -lpami-gcc -lSPI -lSPI_cnk -lrt -lpthread -lstdc++ -lpthread -lxlopt -lxl -libmc++ -lstdc++ -lm -ldl -lpthread -lgcc -lm --start-group -lc -lnss_files -lnss_dns -lresolv --end-group -lgcc -lgcc_eh /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtend.o /bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crtn.o ]
+    arg [/bgsys/drivers/ppcfloor/gnu-linux/powerpc64-bgq-linux/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-Qy] ==> ignore
+    arg [-melf64ppc] ==> ignore
+    arg [-static] ==> ignore
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+    arg [-L/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crt1.o] ==> ignore
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crti.o] ==> ignore
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtbeginT.o] ==> ignore
+    arg [-L/opt/ibmcmp/xlsmp/bg/3.1/bglib64] ==> dir [/opt/ibmcmp/xlsmp/bg/3.1/bglib64]
+    arg [-L/opt/ibmcmp/xlmass/bg/7.3/bglib64] ==> dir [/opt/ibmcmp/xlmass/bg/7.3/bglib64]
+    arg [-L/opt/ibmcmp/vac/bg/12.1/bglib64] ==> dir [/opt/ibmcmp/vac/bg/12.1/bglib64]
+    arg [-L/opt/ibmcmp/vacpp/bg/12.1/bglib64] ==> dir [/opt/ibmcmp/vacpp/bg/12.1/bglib64]
+    arg [-R/opt/ibmcmp/lib64/bg/bglib64] ==> ignore
+    arg [-L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7] ==> dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7]
+    arg [-L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc] ==> dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc]
+    arg [-L/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib] ==> dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib]
+    arg [CMakeFiles/cmTryCompileExec1174840418.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1174840418] ==> ignore
+    arg [-lmpichcxx-xl] ==> lib [mpichcxx-xl]
+    arg [-lmpich-xl] ==> lib [mpich-xl]
+    arg [-lopa-xl] ==> lib [opa-xl]
+    arg [-lmpl-xl] ==> lib [mpl-xl]
+    arg [-lpami-gcc] ==> lib [pami-gcc]
+    arg [-lSPI] ==> lib [SPI]
+    arg [-lSPI_cnk] ==> lib [SPI_cnk]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lxlopt] ==> lib [xlopt]
+    arg [-lxl] ==> lib [xl]
+    arg [-libmc++] ==> lib [ibmc++]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-ldl] ==> lib [dl]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lnss_files] ==> lib [nss_files]
+    arg [-lnss_dns] ==> lib [nss_dns]
+    arg [-lresolv] ==> lib [resolv]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/crtend.o] ==> ignore
+    arg [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib64] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib64]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/spi/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/spi/lib]
+  collapse library dir [/bgsys/drivers/V1R2M5/ppc64/comm/lib] ==> [/bgsys/drivers/V1R2M5/ppc64/comm/lib]
+  collapse library dir [/opt/ibmcmp/xlsmp/bg/3.1/bglib64] ==> [/opt/ibmcmp/xlsmp/bg/3.1/bglib64]
+  collapse library dir [/opt/ibmcmp/xlmass/bg/7.3/bglib64] ==> [/opt/ibmcmp/xlmass/bg/7.3/bglib64]
+  collapse library dir [/opt/ibmcmp/vac/bg/12.1/bglib64] ==> [/opt/ibmcmp/vac/bg/12.1/bglib64]
+  collapse library dir [/opt/ibmcmp/vacpp/bg/12.1/bglib64] ==> [/opt/ibmcmp/vacpp/bg/12.1/bglib64]
+  collapse library dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7] ==> [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7]
+  collapse library dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc] ==> [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc]
+  collapse library dir [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7/../../../../powerpc64-bgq-linux/lib] ==> [/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/powerpc64-bgq-linux/lib]
+  implicit libs: [mpichcxx-xl;mpich-xl;opa-xl;mpl-xl;pami-gcc;SPI;SPI_cnk;rt;pthread;stdc++;pthread;xlopt;xl;ibmc++;stdc++;m;dl;pthread;m;c;nss_files;nss_dns;resolv]
+  implicit dirs: [/bgsys/drivers/V1R2M5/ppc64/comm/lib;/bgsys/drivers/V1R2M5/ppc64/comm/lib64;/bgsys/drivers/V1R2M5/ppc64/spi/lib;/bgsys/drivers/V1R2M5/ppc64/comm/sys/lib;/opt/ibmcmp/xlsmp/bg/3.1/bglib64;/opt/ibmcmp/xlmass/bg/7.3/bglib64;/opt/ibmcmp/vac/bg/12.1/bglib64;/opt/ibmcmp/vacpp/bg/12.1/bglib64;/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc/powerpc64-bgq-linux/4.4.7;/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/lib/gcc;/bgsys/drivers/toolchain/V1R2M5_base/gnu-linux/powerpc64-bgq-linux/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2668251270/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2668251270.dir/build.make CMakeFiles/cmTryCompileExec2668251270.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2668251270.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec2668251270.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2668251270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2668251270.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DOpenMP_FLAG_DETECTED -qsmp    CMakeFiles/cmTryCompileExec2668251270.dir/src.c.o  -o cmTryCompileExec2668251270  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2882643160/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2882643160.dir/build.make CMakeFiles/cmTryCompileExec2882643160.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2882643160.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec2882643160.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2882643160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2882643160.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -DOpenMP_FLAG_DETECTED -qsmp    CMakeFiles/cmTryCompileExec2882643160.dir/src.cxx.o  -o cmTryCompileExec2882643160  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test CFLAGS_ARCH succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2701778891/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2701778891.dir/build.make CMakeFiles/cmTryCompileExec2701778891.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2701778891.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DCFLAGS_ARCH -qarch=auto -qtune=auto   -o CMakeFiles/cmTryCompileExec2701778891.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2701778891
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2701778891.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DCFLAGS_ARCH -qarch=auto -qtune=auto    CMakeFiles/cmTryCompileExec2701778891.dir/src.c.o  -o cmTryCompileExec2701778891  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_OPT succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2483904772/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2483904772.dir/build.make CMakeFiles/cmTryCompileExec2483904772.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2483904772.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DCFLAGS_OPT -O3   -o CMakeFiles/cmTryCompileExec2483904772.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2483904772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2483904772.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DCFLAGS_OPT -O3    CMakeFiles/cmTryCompileExec2483904772.dir/src.c.o  -o cmTryCompileExec2483904772  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_LANG succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3226791221/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3226791221.dir/build.make CMakeFiles/cmTryCompileExec3226791221.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3226791221.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DCFLAGS_LANG -qlanglvl=extc99   -o CMakeFiles/cmTryCompileExec3226791221.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3226791221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3226791221.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -DCFLAGS_LANG -qlanglvl=extc99    CMakeFiles/cmTryCompileExec3226791221.dir/src.c.o  -o cmTryCompileExec3226791221  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_ARCH succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec788640649/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec788640649.dir/build.make CMakeFiles/cmTryCompileExec788640649.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec788640649.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -DCXXFLAGS_ARCH -qarch=auto -qtune=auto   -o CMakeFiles/cmTryCompileExec788640649.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec788640649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec788640649.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -DCXXFLAGS_ARCH -qarch=auto -qtune=auto    CMakeFiles/cmTryCompileExec788640649.dir/src.cxx.o  -o cmTryCompileExec788640649  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_OPT succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1120090397/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1120090397.dir/build.make CMakeFiles/cmTryCompileExec1120090397.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1120090397.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -DCXXFLAGS_OPT -O3   -o CMakeFiles/cmTryCompileExec1120090397.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1120090397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1120090397.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -DCXXFLAGS_OPT -O3    CMakeFiles/cmTryCompileExec1120090397.dir/src.cxx.o  -o cmTryCompileExec1120090397  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_LANG succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2179695193/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2179695193.dir/build.make CMakeFiles/cmTryCompileExec2179695193.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2179695193.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -DCXXFLAGS_LANG -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030   -o CMakeFiles/cmTryCompileExec2179695193.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2179695193
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2179695193.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -DCXXFLAGS_LANG -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030    CMakeFiles/cmTryCompileExec2179695193.dir/src.cxx.o  -o cmTryCompileExec2179695193  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec873790604/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec873790604.dir/build.make CMakeFiles/cmTryCompileExec873790604.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec873790604.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec873790604.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec873790604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec873790604.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec873790604.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec873790604  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec450270368/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec450270368.dir/build.make CMakeFiles/cmTryCompileExec450270368.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec450270368.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec450270368.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec450270368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec450270368.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec450270368.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec450270368  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3514173000/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3514173000.dir/build.make CMakeFiles/cmTryCompileExec3514173000.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3514173000.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3514173000.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3514173000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3514173000.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec3514173000.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3514173000  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4276060177/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4276060177.dir/build.make CMakeFiles/cmTryCompileExec4276060177.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4276060177.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec4276060177.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4276060177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4276060177.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec4276060177.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4276060177  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2963347516/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2963347516.dir/build.make CMakeFiles/cmTryCompileExec2963347516.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2963347516.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec2963347516.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2963347516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2963347516.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec2963347516.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2963347516  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec124452743/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec124452743.dir/build.make CMakeFiles/cmTryCompileExec124452743.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec124452743.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec124452743.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec124452743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec124452743.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec124452743.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec124452743  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3673583004/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3673583004.dir/build.make CMakeFiles/cmTryCompileExec3673583004.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3673583004.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3673583004.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3673583004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3673583004.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec3673583004.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3673583004  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2516498310/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2516498310.dir/build.make CMakeFiles/cmTryCompileExec2516498310.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2516498310.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec2516498310.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" int (*)(void **, unsigned long, unsigned long) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec2516498310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2516498310.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec2516498310.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2516498310  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3229557584/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3229557584.dir/build.make CMakeFiles/cmTryCompileExec3229557584.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3229557584.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3229557584.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" int (*)(timeval * restrict, timezone * restrict) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec3229557584
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3229557584.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec3229557584.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3229557584  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1615227811/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1615227811.dir/build.make CMakeFiles/cmTryCompileExec1615227811.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1615227811.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec1615227811.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" long (*)(int) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec1615227811
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1615227811.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec1615227811.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1615227811  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nice exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3171373794/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3171373794.dir/build.make CMakeFiles/cmTryCompileExec3171373794.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3171373794.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3171373794.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" int (*)(int) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec3171373794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3171373794.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec3171373794.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3171373794  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fsync exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3561069431/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3561069431.dir/build.make CMakeFiles/cmTryCompileExec3561069431.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3561069431.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3561069431.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" int (*)(int)" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec3561069431
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3561069431.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec3561069431.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3561069431  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fileno exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec753981456/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec753981456.dir/build.make CMakeFiles/cmTryCompileExec753981456.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec753981456.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec753981456.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" int (*)(_IO_FILE *) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec753981456
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec753981456.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec753981456.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec753981456  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec452840499/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec452840499.dir/build.make CMakeFiles/cmTryCompileExec452840499.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec452840499.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec452840499.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" int (*)(int, const sigaction * restrict, sigaction * restrict) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec452840499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec452840499.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec452840499.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec452840499  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3705971207/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3705971207.dir/build.make CMakeFiles/cmTryCompileExec3705971207.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3705971207.dir/CheckSymbolExists.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec3705971207.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+"/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx", line 8.17: 1540-0216 (W) An expression of type "extern "C" float (*)(float) throw()" cannot be converted to type "int *".
+Linking CXX executable cmTryCompileExec3705971207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3705971207.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx   -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec3705971207.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3705971207  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4141015944/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4141015944.dir/build.make CMakeFiles/cmTryCompileExec4141015944.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4141015944.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec4141015944.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4141015944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4141015944.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec4141015944.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4141015944  -lrt 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1501523980/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1501523980.dir/build.make CMakeFiles/cmTryCompileExec1501523980.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1501523980.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=feenableexcept   -o CMakeFiles/cmTryCompileExec1501523980.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1501523980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1501523980.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=feenableexcept    CMakeFiles/cmTryCompileExec1501523980.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1501523980  -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3466596092/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3466596092.dir/build.make CMakeFiles/cmTryCompileExec3466596092.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3466596092.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -Dsched_affinity_compile   -o CMakeFiles/cmTryCompileExec3466596092.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3466596092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3466596092.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -Dsched_affinity_compile    CMakeFiles/cmTryCompileExec3466596092.dir/src.c.o  -o cmTryCompileExec3466596092  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1600785970/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1600785970.dir/build.make CMakeFiles/cmTryCompileExec1600785970.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1600785970.dir/CheckIncludeFile.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec1600785970.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1600785970
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1600785970.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec1600785970.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1600785970  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2851574318/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2851574318.dir/build.make CMakeFiles/cmTryCompileExec2851574318.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2851574318.dir/CheckIncludeFile.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec2851574318.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2851574318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2851574318.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec2851574318.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2851574318  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec366479851/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec366479851.dir/build.make CMakeFiles/cmTryCompileExec366479851.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec366479851.dir/CheckIncludeFile.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec366479851.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec366479851
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec366479851.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec366479851.dir/CheckIncludeFile.c.o  -o cmTryCompileExec366479851  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec193068918/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec193068918.dir/build.make CMakeFiles/cmTryCompileExec193068918.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec193068918.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec193068918.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec193068918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec193068918.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec193068918.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec193068918  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test MPI_IN_PLACE_COMPILE_OK succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec127521473/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec127521473.dir/build.make CMakeFiles/cmTryCompileExec127521473.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec127521473.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DMPI_IN_PLACE_COMPILE_OK   -o CMakeFiles/cmTryCompileExec127521473.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec127521473
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec127521473.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DMPI_IN_PLACE_COMPILE_OK    CMakeFiles/cmTryCompileExec127521473.dir/src.c.o  -o cmTryCompileExec127521473  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mpi.h>
+int main(void) {
+  void* buf;
+  MPI_Allreduce(MPI_IN_PLACE, buf, 10, MPI_FLOAT, MPI_SUM, MPI_COMM_WORLD);
+}
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1604384123/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1604384123.dir/build.make CMakeFiles/cmTryCompileExec1604384123.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1604384123.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec1604384123.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1604384123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1604384123.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec1604384123.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1604384123  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec48360126/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec48360126.dir/build.make CMakeFiles/cmTryCompileExec48360126.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec48360126.dir/CheckSymbolExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec48360126.dir/CheckSymbolExists.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec48360126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec48360126.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec48360126.dir/CheckSymbolExists.c.o  -o cmTryCompileExec48360126  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec766309064/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec766309064.dir/build.make CMakeFiles/cmTryCompileExec766309064.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec766309064.dir/CheckIncludeFiles.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec766309064.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec766309064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec766309064.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec766309064.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec766309064  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test PTHREAD_SETAFFINITY succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4091839187/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4091839187.dir/build.make CMakeFiles/cmTryCompileExec4091839187.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4091839187.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DPTHREAD_SETAFFINITY   -o CMakeFiles/cmTryCompileExec4091839187.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4091839187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4091839187.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DPTHREAD_SETAFFINITY    CMakeFiles/cmTryCompileExec4091839187.dir/src.c.o  -o cmTryCompileExec4091839187  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test isfinite_compile_ok succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4048611098/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4048611098.dir/build.make CMakeFiles/cmTryCompileExec4048611098.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4048611098.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -Disfinite_compile_ok -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec4048611098.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4048611098
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4048611098.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -Disfinite_compile_ok    CMakeFiles/cmTryCompileExec4048611098.dir/src.c.o  -o cmTryCompileExec4048611098  -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  isfinite(f);
+  return 0;
+}
+Performing C SOURCE FILE Test _callconv_ succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec77367780/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec77367780.dir/build.make CMakeFiles/cmTryCompileExec77367780.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec77367780.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_callconv_   -o CMakeFiles/cmTryCompileExec77367780.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec77367780
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec77367780.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -D_callconv_    CMakeFiles/cmTryCompileExec77367780.dir/src.c.o  -o cmTryCompileExec77367780  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int  f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function fftwf_plan_r2r_1d exists in the /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1896232651/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1896232651.dir/build.make CMakeFiles/cmTryCompileExec1896232651.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1896232651.dir/CheckFunctionExists.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_plan_r2r_1d   -o CMakeFiles/cmTryCompileExec1896232651.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1896232651
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1896232651.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DCHECK_FUNCTION_EXISTS=fftwf_plan_r2r_1d    CMakeFiles/cmTryCompileExec1896232651.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1896232651  /bgsys/local/fftw3/3.3.3/fftw_opt/lib/libfftw3f.a -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_DLOPEN succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2011807009/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2011807009.dir/build.make CMakeFiles/cmTryCompileExec2011807009.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2011807009.dir/src.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DHAVE_DLOPEN -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/dlfcn.h    -o CMakeFiles/cmTryCompileExec2011807009.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2011807009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2011807009.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto  -DHAVE_DLOPEN    CMakeFiles/cmTryCompileExec2011807009.dir/src.c.o  -o cmTryCompileExec2011807009  -ldl 
+CMakeFiles/cmTryCompileExec2011807009.dir/src.c.o:(.text+0x14): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <dlfcn.h>
+int main(void) {
+  dlopen(0,0);
+  return 0;
+}
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec429562691/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec429562691.dir/build.make CMakeFiles/cmTryCompileExec429562691.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec429562691.dir/CheckIncludeFile.c.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc   -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto     -o CMakeFiles/cmTryCompileExec429562691.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec429562691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec429562691.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicc      -qthreaded -qalias=noansi -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qlanglvl=extc99 -qarch=auto -qtune=auto      CMakeFiles/cmTryCompileExec429562691.dir/CheckIncludeFile.c.o  -o cmTryCompileExec429562691  
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec989174326/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec989174326.dir/build.make CMakeFiles/cmTryCompileExec989174326.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec989174326.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter   -o CMakeFiles/cmTryCompileExec989174326.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+/opt/ibmcmp/vacpp/bg/12.1/bin/.orig/bgxlC_r: 1501-289 (W) Option -Wno-unused-parameter was incorrectly specified. The option will be ignored.
+Linking CXX executable cmTryCompileExec989174326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec989174326.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx      -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter    CMakeFiles/cmTryCompileExec989174326.dir/src.cxx.o  -o cmTryCompileExec989174326  
+/opt/ibmcmp/vacpp/bg/12.1/bin/.orig/bgxlC_r: 1501-289 (W) Option -Wno-unused-parameter was incorrectly specified. The option will be ignored.
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_NO_DEPRECATED_REGISTER succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3551764292/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3551764292.dir/build.make CMakeFiles/cmTryCompileExec3551764292.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3551764292.dir/src.cxx.o
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx  -+  -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register   -o CMakeFiles/cmTryCompileExec3551764292.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp/src.cxx
+/opt/ibmcmp/vacpp/bg/12.1/bin/.orig/bgxlC_r: 1501-289 (W) Option -Wno-deprecated-register was incorrectly specified. The option will be ignored.
+Linking CXX executable cmTryCompileExec3551764292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3551764292.dir/link.txt --verbose=1
+/bgsys/drivers/ppcfloor/comm/xl/bin/mpicxx      -qthreaded -qhalt=e -qsuppress=1500-036 -qsuppress=1500-010 -qsuppress=1500-030 -qarch=auto -qtune=auto  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register    CMakeFiles/cmTryCompileExec3551764292.dir/src.cxx.o  -o cmTryCompileExec3551764292  
+/opt/ibmcmp/vacpp/bg/12.1/bin/.orig/bgxlC_r: 1501-289 (W) Option -Wno-deprecated-register was incorrectly specified. The option will be ignored.
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_eq/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}

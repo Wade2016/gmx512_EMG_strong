@@ -1,0 +1,1311 @@
+The system is: Linux - 2.6.32-696.6.3.el6.ppc64 - ppc64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1917645681/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1917645681.dir/build.make CMakeFiles/cmTryCompileExec1917645681.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1917645681.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1917645681.dir/testCCompiler.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1917645681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1917645681.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTryCompileExec1917645681.dir/testCCompiler.c.o  -o cmTryCompileExec1917645681 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3613098335/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3613098335.dir/build.make CMakeFiles/cmTryCompileExec3613098335.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3613098335
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3613098335.dir/link.txt --verbose=1
+/usr/bin/gcc     -v CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3613098335 -rdynamic  
+Using built-in specs.
+Target: ppc64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --enable-secureplt --with-long-double-128 --with-cpu-32=power4 --with-tune-32=power6 --with-cpu-64=power4 --with-tune-64=power6 --build=ppc64-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3613098335' '-rdynamic' '-mtune=power6' '-mcpu=power4'
+ /usr/libexec/gcc/ppc64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -V -Qy --hash-style=gnu -m elf64ppc -export-dynamic -dynamic-linker /lib64/ld64.so.1 -o cmTryCompileExec3613098335 /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+GNU ld version 2.20.51.0.2-5.47.el6_9.1 20100205
+  Supported emulations:
+   elf64ppc
+   elf32ppclinux
+   elf32ppc
+   elf32ppcsim
+   elf32_spu
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3613098335/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3613098335.dir/build.make CMakeFiles/cmTryCompileExec3613098335.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3613098335]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3613098335.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3613098335 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: ppc64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --enable-secureplt --with-long-double-128 --with-cpu-32=power4 --with-tune-32=power6 --with-cpu-64=power4 --with-tune-64=power6 --build=ppc64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3613098335' '-rdynamic' '-mtune=power6' '-mcpu=power4']
+  link line: [ /usr/libexec/gcc/ppc64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -V -Qy --hash-style=gnu -m elf64ppc -export-dynamic -dynamic-linker /lib64/ld64.so.1 -o cmTryCompileExec3613098335 /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-V] ==> ignore
+    arg [-Qy] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64ppc] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3613098335] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3613098335.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/ppc64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4144678880/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4144678880.dir/build.make CMakeFiles/cmTryCompileExec4144678880.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4144678880.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTryCompileExec4144678880.dir/testCXXCompiler.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4144678880
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4144678880.dir/link.txt --verbose=1
+/usr/bin/g++        CMakeFiles/cmTryCompileExec4144678880.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4144678880 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1944805299/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1944805299.dir/build.make CMakeFiles/cmTryCompileExec1944805299.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1944805299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1944805299.dir/link.txt --verbose=1
+/usr/bin/g++      -v CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1944805299 -rdynamic  
+Using built-in specs.
+Target: ppc64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --enable-secureplt --with-long-double-128 --with-cpu-32=power4 --with-tune-32=power6 --with-cpu-64=power4 --with-tune-64=power6 --build=ppc64-redhat-linux
+Thread model: posix
+gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1944805299' '-rdynamic' '-shared-libgcc' '-mtune=power6' '-mcpu=power4'
+ /usr/libexec/gcc/ppc64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -V -Qy --hash-style=gnu -m elf64ppc -export-dynamic -dynamic-linker /lib64/ld64.so.1 -o cmTryCompileExec1944805299 /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crtn.o
+GNU ld version 2.20.51.0.2-5.47.el6_9.1 20100205
+  Supported emulations:
+   elf64ppc
+   elf32ppclinux
+   elf32ppc
+   elf32ppcsim
+   elf32_spu
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1944805299/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1944805299.dir/build.make CMakeFiles/cmTryCompileExec1944805299.dir/build]
+  ignore line: [gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++     -o CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1944805299]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1944805299.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1944805299 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: ppc64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --enable-secureplt --with-long-double-128 --with-cpu-32=power4 --with-tune-32=power6 --with-cpu-64=power4 --with-tune-64=power6 --build=ppc64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/:/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/:/usr/libexec/gcc/ppc64-redhat-linux/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1944805299' '-rdynamic' '-shared-libgcc' '-mtune=power6' '-mcpu=power4']
+  link line: [ /usr/libexec/gcc/ppc64-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -V -Qy --hash-style=gnu -m elf64ppc -export-dynamic -dynamic-linker /lib64/ld64.so.1 -o cmTryCompileExec1944805299 /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crt1.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crti.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../.. CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/ppc64-redhat-linux/4.4.7/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-V] ==> ignore
+    arg [-Qy] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64ppc] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld64.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1944805299] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec1944805299.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7] ==> [/usr/lib/gcc/ppc64-redhat-linux/4.4.7]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/ppc64-redhat-linux/4.4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/ppc64-redhat-linux/4.4.7;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2721610432/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2721610432.dir/build.make CMakeFiles/cmTryCompileExec2721610432.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2721610432.dir/src.c.o
+/usr/bin/gcc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2721610432.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2721610432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2721610432.dir/link.txt --verbose=1
+/usr/bin/gcc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2721610432.dir/src.c.o  -o cmTryCompileExec2721610432 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2113168210/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2113168210.dir/build.make CMakeFiles/cmTryCompileExec2113168210.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2113168210.dir/src.cxx.o
+/usr/bin/g++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2113168210.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2113168210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2113168210.dir/link.txt --verbose=1
+/usr/bin/g++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec2113168210.dir/src.cxx.o  -o cmTryCompileExec2113168210 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test CFLAGS_WARN succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4031709494/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4031709494.dir/build.make CMakeFiles/cmTryCompileExec4031709494.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4031709494.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_WARN -Wall -Wno-unused -Wunused-value -Wunused-parameter   -o CMakeFiles/cmTryCompileExec4031709494.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4031709494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4031709494.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCFLAGS_WARN -Wall -Wno-unused -Wunused-value -Wunused-parameter    CMakeFiles/cmTryCompileExec4031709494.dir/src.c.o  -o cmTryCompileExec4031709494 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_EXTRA succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1983636841/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1983636841.dir/build.make CMakeFiles/cmTryCompileExec1983636841.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1983636841.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith   -o CMakeFiles/cmTryCompileExec1983636841.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1983636841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1983636841.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith    CMakeFiles/cmTryCompileExec1983636841.dir/src.c.o  -o cmTryCompileExec1983636841 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_UNDEF succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3202187404/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3202187404.dir/build.make CMakeFiles/cmTryCompileExec3202187404.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3202187404.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_WARN_UNDEF -Wundef   -o CMakeFiles/cmTryCompileExec3202187404.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3202187404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3202187404.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCFLAGS_WARN_UNDEF -Wundef    CMakeFiles/cmTryCompileExec3202187404.dir/src.c.o  -o cmTryCompileExec3202187404 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_REL succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1096997150/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1096997150.dir/build.make CMakeFiles/cmTryCompileExec1096997150.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1096997150.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_WARN_REL -Wno-array-bounds   -o CMakeFiles/cmTryCompileExec1096997150.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1096997150
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1096997150.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCFLAGS_WARN_REL -Wno-array-bounds    CMakeFiles/cmTryCompileExec1096997150.dir/src.c.o  -o cmTryCompileExec1096997150 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2433538873/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2433538873.dir/build.make CMakeFiles/cmTryCompileExec2433538873.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2433538873.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_COPT -funroll-all-loops   -o CMakeFiles/cmTryCompileExec2433538873.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2433538873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2433538873.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCFLAGS_COPT -funroll-all-loops    CMakeFiles/cmTryCompileExec2433538873.dir/src.c.o  -o cmTryCompileExec2433538873 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec268827406/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec268827406.dir/build.make CMakeFiles/cmTryCompileExec268827406.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec268827406.dir/src.c.o
+/usr/bin/gcc   -DCFLAGS_NOINLINE -fno-inline   -o CMakeFiles/cmTryCompileExec268827406.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec268827406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec268827406.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCFLAGS_NOINLINE -fno-inline    CMakeFiles/cmTryCompileExec268827406.dir/src.c.o  -o cmTryCompileExec268827406 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4175696074/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4175696074.dir/build.make CMakeFiles/cmTryCompileExec4175696074.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4175696074.dir/src.cxx.o
+/usr/bin/g++    -DCXXFLAGS_WARN -Wall -Wno-unused-function   -o CMakeFiles/cmTryCompileExec4175696074.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4175696074
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4175696074.dir/link.txt --verbose=1
+/usr/bin/g++    -DCXXFLAGS_WARN -Wall -Wno-unused-function    CMakeFiles/cmTryCompileExec4175696074.dir/src.cxx.o  -o cmTryCompileExec4175696074 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_EXTRA succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2866990273/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2866990273.dir/build.make CMakeFiles/cmTryCompileExec2866990273.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2866990273.dir/src.cxx.o
+/usr/bin/g++    -DCXXFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wpointer-arith   -o CMakeFiles/cmTryCompileExec2866990273.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2866990273
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2866990273.dir/link.txt --verbose=1
+/usr/bin/g++    -DCXXFLAGS_WARN_EXTRA -Wextra -Wno-missing-field-initializers -Wpointer-arith    CMakeFiles/cmTryCompileExec2866990273.dir/src.cxx.o  -o cmTryCompileExec2866990273 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_UNDEF succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2985876726/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2985876726.dir/build.make CMakeFiles/cmTryCompileExec2985876726.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2985876726.dir/src.cxx.o
+/usr/bin/g++    -DCXXFLAGS_WARN_UNDEF -Wundef   -o CMakeFiles/cmTryCompileExec2985876726.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2985876726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2985876726.dir/link.txt --verbose=1
+/usr/bin/g++    -DCXXFLAGS_WARN_UNDEF -Wundef    CMakeFiles/cmTryCompileExec2985876726.dir/src.cxx.o  -o cmTryCompileExec2985876726 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test CXXFLAGS_WARN_REL succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1653240815/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1653240815.dir/build.make CMakeFiles/cmTryCompileExec1653240815.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1653240815.dir/src.c.o
+/usr/bin/gcc   -DCXXFLAGS_WARN_REL -Wno-array-bounds   -o CMakeFiles/cmTryCompileExec1653240815.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1653240815
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1653240815.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCXXFLAGS_WARN_REL -Wno-array-bounds    CMakeFiles/cmTryCompileExec1653240815.dir/src.c.o  -o cmTryCompileExec1653240815 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec629045911/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec629045911.dir/build.make CMakeFiles/cmTryCompileExec629045911.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec629045911.dir/src.cxx.o
+/usr/bin/g++    -DCXXFLAGS_COPT -funroll-all-loops   -o CMakeFiles/cmTryCompileExec629045911.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec629045911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec629045911.dir/link.txt --verbose=1
+/usr/bin/g++    -DCXXFLAGS_COPT -funroll-all-loops    CMakeFiles/cmTryCompileExec629045911.dir/src.cxx.o  -o cmTryCompileExec629045911 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2456435360/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2456435360.dir/build.make CMakeFiles/cmTryCompileExec2456435360.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2456435360.dir/src.cxx.o
+/usr/bin/g++    -DCXXFLAGS_NOINLINE -fno-inline   -o CMakeFiles/cmTryCompileExec2456435360.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2456435360
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2456435360.dir/link.txt --verbose=1
+/usr/bin/g++    -DCXXFLAGS_NOINLINE -fno-inline    CMakeFiles/cmTryCompileExec2456435360.dir/src.cxx.o  -o cmTryCompileExec2456435360 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2817426396/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2817426396.dir/build.make CMakeFiles/cmTryCompileExec2817426396.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2817426396.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2817426396.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2817426396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2817426396.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2817426396.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2817426396 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1250474980/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1250474980.dir/build.make CMakeFiles/cmTryCompileExec1250474980.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1250474980.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1250474980.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1250474980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1250474980.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1250474980.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1250474980 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2362020862/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2362020862.dir/build.make CMakeFiles/cmTryCompileExec2362020862.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2362020862.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2362020862.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2362020862
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2362020862.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2362020862.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2362020862 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3674044184/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3674044184.dir/build.make CMakeFiles/cmTryCompileExec3674044184.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3674044184.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3674044184.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3674044184
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3674044184.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3674044184.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3674044184 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec726504027/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec726504027.dir/build.make CMakeFiles/cmTryCompileExec726504027.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec726504027.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec726504027.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec726504027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec726504027.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec726504027.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec726504027 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4070636235/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4070636235.dir/build.make CMakeFiles/cmTryCompileExec4070636235.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4070636235.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec4070636235.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4070636235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4070636235.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec4070636235.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4070636235 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2560960239/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2560960239.dir/build.make CMakeFiles/cmTryCompileExec2560960239.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2560960239.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec2560960239.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2560960239
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2560960239.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2560960239.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2560960239 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec198156311/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec198156311.dir/build.make CMakeFiles/cmTryCompileExec198156311.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec198156311.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec198156311.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec198156311
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec198156311.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec198156311.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec198156311 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1091579325/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1091579325.dir/build.make CMakeFiles/cmTryCompileExec1091579325.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1091579325.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1091579325.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1091579325
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1091579325.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec1091579325.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1091579325 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec217610195/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec217610195.dir/build.make CMakeFiles/cmTryCompileExec217610195.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec217610195.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec217610195.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec217610195
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec217610195.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec217610195.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec217610195 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nice exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3871589811/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3871589811.dir/build.make CMakeFiles/cmTryCompileExec3871589811.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3871589811.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec3871589811.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3871589811
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3871589811.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec3871589811.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3871589811 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fsync exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1642127010/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1642127010.dir/build.make CMakeFiles/cmTryCompileExec1642127010.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1642127010.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1642127010.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1642127010
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1642127010.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec1642127010.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1642127010 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fileno exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3016356649/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3016356649.dir/build.make CMakeFiles/cmTryCompileExec3016356649.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3016356649.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec3016356649.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3016356649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3016356649.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec3016356649.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3016356649 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2956998830/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2956998830.dir/build.make CMakeFiles/cmTryCompileExec2956998830.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2956998830.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec2956998830.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2956998830
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2956998830.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec2956998830.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2956998830 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1025389810/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1025389810.dir/build.make CMakeFiles/cmTryCompileExec1025389810.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1025389810.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function     -o CMakeFiles/cmTryCompileExec1025389810.dir/CheckSymbolExists.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1025389810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1025389810.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function      CMakeFiles/cmTryCompileExec1025389810.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1025389810 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+File /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1340799850/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1340799850.dir/build.make CMakeFiles/cmTryCompileExec1340799850.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1340799850.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec1340799850.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1340799850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1340799850.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec1340799850.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1340799850 -rdynamic -lrt 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3630486358/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3630486358.dir/build.make CMakeFiles/cmTryCompileExec3630486358.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3630486358.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=feenableexcept   -o CMakeFiles/cmTryCompileExec3630486358.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3630486358
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3630486358.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=feenableexcept    CMakeFiles/cmTryCompileExec3630486358.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3630486358 -rdynamic -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2995738079/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2995738079.dir/build.make CMakeFiles/cmTryCompileExec2995738079.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2995738079.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Dsched_affinity_compile   -o CMakeFiles/cmTryCompileExec2995738079.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2995738079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2995738079.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Dsched_affinity_compile    CMakeFiles/cmTryCompileExec2995738079.dir/src.c.o  -o cmTryCompileExec2995738079 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec444349223/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec444349223.dir/build.make CMakeFiles/cmTryCompileExec444349223.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec444349223.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec444349223.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec444349223
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec444349223.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec444349223.dir/CheckIncludeFile.c.o  -o cmTryCompileExec444349223 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1110291948/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1110291948.dir/build.make CMakeFiles/cmTryCompileExec1110291948.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1110291948.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec1110291948.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1110291948
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1110291948.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec1110291948.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1110291948 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3439456827/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3439456827.dir/build.make CMakeFiles/cmTryCompileExec3439456827.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3439456827.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3439456827.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3439456827
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3439456827.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3439456827.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3439456827 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3588304303/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3588304303.dir/build.make CMakeFiles/cmTryCompileExec3588304303.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3588304303.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3588304303.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec3588304303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3588304303.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3588304303.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec3588304303 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the function zlibVersion exists in the /usr/lib64/libz.so passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2877938783/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2877938783.dir/build.make CMakeFiles/cmTryCompileExec2877938783.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2877938783.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=zlibVersion   -o CMakeFiles/cmTryCompileExec2877938783.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2877938783
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2877938783.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=zlibVersion    CMakeFiles/cmTryCompileExec2877938783.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2877938783 -rdynamic -lz 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xmlTextWriterEndAttribute exists in the /usr/lib64/libxml2.so passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3024721432/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3024721432.dir/build.make CMakeFiles/cmTryCompileExec3024721432.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3024721432.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=xmlTextWriterEndAttribute   -o CMakeFiles/cmTryCompileExec3024721432.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3024721432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3024721432.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=xmlTextWriterEndAttribute    CMakeFiles/cmTryCompileExec3024721432.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3024721432 -rdynamic -lxml2 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files libxml/parser.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2900586189/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2900586189.dir/build.make CMakeFiles/cmTryCompileExec2900586189.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2900586189.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter   -I/usr/include/libxml2    -o CMakeFiles/cmTryCompileExec2900586189.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2900586189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2900586189.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec2900586189.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2900586189 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3918939482/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3918939482.dir/build.make CMakeFiles/cmTryCompileExec3918939482.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3918939482.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec3918939482.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3918939482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3918939482.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec3918939482.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3918939482 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec449388301/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec449388301.dir/build.make CMakeFiles/cmTryCompileExec449388301.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec449388301.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec449388301.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec449388301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec449388301.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec449388301.dir/CheckFunctionExists.c.o  -o cmTryCompileExec449388301 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec682514289/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec682514289.dir/build.make CMakeFiles/cmTryCompileExec682514289.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec682514289.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec682514289.dir/CheckIncludeFiles.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec682514289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec682514289.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec682514289.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec682514289 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test PTHREAD_SETAFFINITY succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3094739276/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3094739276.dir/build.make CMakeFiles/cmTryCompileExec3094739276.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3094739276.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DPTHREAD_SETAFFINITY   -o CMakeFiles/cmTryCompileExec3094739276.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3094739276
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3094739276.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DPTHREAD_SETAFFINITY    CMakeFiles/cmTryCompileExec3094739276.dir/src.c.o  -o cmTryCompileExec3094739276 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test isfinite_compile_ok succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1927323987/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1927323987.dir/build.make CMakeFiles/cmTryCompileExec1927323987.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1927323987.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Disfinite_compile_ok -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/math.h    -o CMakeFiles/cmTryCompileExec1927323987.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:4: warning: statement with no effect
+/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c:4: warning: 'f' is used uninitialized in this function
+Linking C executable cmTryCompileExec1927323987
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1927323987.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -Disfinite_compile_ok    CMakeFiles/cmTryCompileExec1927323987.dir/src.c.o  -o cmTryCompileExec1927323987 -rdynamic -lm 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <math.h>
+int main(void) {
+  float f;
+  isfinite(f);
+  return 0;
+}
+Performing C++ SOURCE FILE Test CXXFLAG_STD_CXX0X succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec24021277/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec24021277.dir/build.make CMakeFiles/cmTryCompileExec24021277.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec24021277.dir/src.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXXFLAG_STD_CXX0X -std=c++0x   -o CMakeFiles/cmTryCompileExec24021277.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec24021277
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec24021277.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXXFLAG_STD_CXX0X -std=c++0x    CMakeFiles/cmTryCompileExec24021277.dir/src.cxx.o  -o cmTryCompileExec24021277 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_FLAG_mvsx succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1124611833/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1124611833.dir/build.make CMakeFiles/cmTryCompileExec1124611833.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1124611833.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_FLAG_mvsx -mvsx   -o CMakeFiles/cmTryCompileExec1124611833.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1124611833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1124611833.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_FLAG_mvsx -mvsx    CMakeFiles/cmTryCompileExec1124611833.dir/src.c.o  -o cmTryCompileExec1124611833 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SIMD_COMPILES_FLAG_mvsx succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec738937120/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec738937120.dir/build.make CMakeFiles/cmTryCompileExec738937120.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec738937120.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_SIMD_COMPILES_FLAG_mvsx  -mvsx   -o CMakeFiles/cmTryCompileExec738937120.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec738937120
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec738937120.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DC_SIMD_COMPILES_FLAG_mvsx  -mvsx    CMakeFiles/cmTryCompileExec738937120.dir/src.c.o  -o cmTryCompileExec738937120 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<altivec.h>
+                              int main(){vector double x,y=vec_splats(1.0);x=vec_madd(y,y,y);return vec_all_ge(y,x);}
+Performing C++ SOURCE FILE Test CXX_FLAG_mvsx succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3847934171/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3847934171.dir/build.make CMakeFiles/cmTryCompileExec3847934171.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3847934171.dir/src.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_FLAG_mvsx -mvsx   -o CMakeFiles/cmTryCompileExec3847934171.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3847934171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3847934171.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_FLAG_mvsx -mvsx    CMakeFiles/cmTryCompileExec3847934171.dir/src.cxx.o  -o cmTryCompileExec3847934171 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SIMD_COMPILES_FLAG_mvsx succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2760670046/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2760670046.dir/build.make CMakeFiles/cmTryCompileExec2760670046.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2760670046.dir/src.cxx.o
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_SIMD_COMPILES_FLAG_mvsx  -mvsx   -o CMakeFiles/cmTryCompileExec2760670046.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2760670046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2760670046.dir/link.txt --verbose=1
+/usr/bin/g++    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DCXX_SIMD_COMPILES_FLAG_mvsx  -mvsx    CMakeFiles/cmTryCompileExec2760670046.dir/src.cxx.o  -o cmTryCompileExec2760670046 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<altivec.h>
+                                int main(){vector double x,y=vec_splats(1.0);x=vec_madd(y,y,y);return vec_all_ge(y,x);}
+Performing C SOURCE FILE Test _callconv_ succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec864432473/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec864432473.dir/build.make CMakeFiles/cmTryCompileExec864432473.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec864432473.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv_   -o CMakeFiles/cmTryCompileExec864432473.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec864432473
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec864432473.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -D_callconv_    CMakeFiles/cmTryCompileExec864432473.dir/src.c.o  -o cmTryCompileExec864432473 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int  f(int i) {return i;} int main(void) {return f(0);}
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1398247394/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1398247394.dir/build.make CMakeFiles/cmTryCompileExec1398247394.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1398247394.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTryCompileExec1398247394.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1398247394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1398247394.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTryCompileExec1398247394.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1398247394 -rdynamic -lblas 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec460834151/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec460834151.dir/build.make CMakeFiles/cmTryCompileExec460834151.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec460834151.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTryCompileExec460834151.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec460834151
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec460834151.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTryCompileExec460834151.dir/CheckFunctionExists.c.o  -o cmTryCompileExec460834151 -rdynamic -llapack -lblas 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_DLOPEN succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec788723102/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec788723102.dir/build.make CMakeFiles/cmTryCompileExec788723102.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec788723102.dir/src.c.o
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DHAVE_DLOPEN -I/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/dlfcn.h    -o CMakeFiles/cmTryCompileExec788723102.dir/src.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec788723102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec788723102.dir/link.txt --verbose=1
+/usr/bin/gcc   -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter  -DHAVE_DLOPEN    CMakeFiles/cmTryCompileExec788723102.dir/src.c.o  -o cmTryCompileExec788723102 -rdynamic -ldl 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <dlfcn.h>
+int main(void) {
+  dlopen(0,0);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_VARIABLE succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3926827664/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3926827664.dir/build.make CMakeFiles/cmTryCompileExec3926827664.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3926827664.dir/src.cxx.o
+/usr/bin/g++    -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_VARIABLE -Wno-unused-variable   -o CMakeFiles/cmTryCompileExec3926827664.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3926827664
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3926827664.dir/link.txt --verbose=1
+/usr/bin/g++    -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_VARIABLE -Wno-unused-variable    CMakeFiles/cmTryCompileExec3926827664.dir/src.cxx.o  -o cmTryCompileExec3926827664 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec249598289/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec249598289.dir/build.make CMakeFiles/cmTryCompileExec249598289.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec249598289.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter     -o CMakeFiles/cmTryCompileExec249598289.dir/CheckIncludeFile.c.o   -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec249598289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec249598289.dir/link.txt --verbose=1
+/usr/bin/gcc   -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -Wall -Wno-unused -Wunused-value -Wunused-parameter      CMakeFiles/cmTryCompileExec249598289.dir/CheckIncludeFile.c.o  -o cmTryCompileExec249598289 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3543678342/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3543678342.dir/build.make CMakeFiles/cmTryCompileExec3543678342.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3543678342.dir/src.cxx.o
+/usr/bin/g++    -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter   -o CMakeFiles/cmTryCompileExec3543678342.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3543678342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3543678342.dir/link.txt --verbose=1
+/usr/bin/g++    -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_UNUSED_PARAMETER -Wno-unused-parameter    CMakeFiles/cmTryCompileExec3543678342.dir/src.cxx.o  -o cmTryCompileExec3543678342 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_NO_DEPRECATED_REGISTER succeded with the following output:
+Change Dir: /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3145842623/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3145842623.dir/build.make CMakeFiles/cmTryCompileExec3145842623.dir/build
+gmake[1]: Entering directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3145842623.dir/src.cxx.o
+/usr/bin/g++    -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register   -o CMakeFiles/cmTryCompileExec3145842623.dir/src.cxx.o -c /homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3145842623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3145842623.dir/link.txt --verbose=1
+/usr/bin/g++    -mvsx    -Wundef -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wall -Wno-unused-function  -DHAS_NO_DEPRECATED_REGISTER -Wno-deprecated-register    CMakeFiles/cmTryCompileExec3145842623.dir/src.cxx.o  -o cmTryCompileExec3145842623 -rdynamic 
+gmake[1]: Leaving directory `/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}

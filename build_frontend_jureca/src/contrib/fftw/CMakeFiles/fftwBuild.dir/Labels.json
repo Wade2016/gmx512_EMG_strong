@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/CMakeFiles/fftwBuild"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/CMakeFiles/fftwBuild.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/CMakeFiles/fftwBuild-complete.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-install.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-mkdir.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-download.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-update.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-patch.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-configure.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-build.rule"
+		},
+		
+		{
+			"file" : "/homea/ias-5/wenping/software/gromacs-5.1.2_EtMg/build_frontend_jureca/src/contrib/fftw/fftwBuild-prefix/src/fftwBuild-stamp/fftwBuild-pre-download.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "fftwBuild" ],
+		"name" : "fftwBuild"
+	}
+}
